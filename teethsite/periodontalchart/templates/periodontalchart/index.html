@@ -1,0 +1,70 @@
+{% extends 'periodontalchart/common.html' %}
+
+{% block title %}
+  Пародонтальная карта
+{% endblock title %}
+
+{% block smth1 %}
+  <h1>Пародонтальная карта</h1>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Таблица</title>
+  <style type="text/css">
+   TABLE {
+    width: 500px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+   TH {
+    background: #b0e0e6; /* Цвет фона */
+   }
+  </style>
+ </head>
+ <body>
+  <table bgcolor=#ffffff align="center">
+   <tr>
+       <th>&nbsp;</th>
+       <th><button onclick="myFunction()">18</button></th>
+       <th><button type="button" name="18">17</button></th>
+       <th><button type="button" name="18">16</button></th>
+       <th><button type="button" name="18">15</button></th>
+       <th><button type="button" name="18">14</button></th>
+       <th><button type="button" name="18">13</button></th>
+       <th><button type="button" name="18">12</button></th>
+       <th><button type="button" name="18">11</button></th>
+   </tr>
+   <tr>
+    <td>Подвижность</td><td><input tupe="button" value=""></td><td><input tupe="button" value=""></td><td>79</td>
+   </tr>
+   <tr>
+    <td>Имплант</td><td>28</td><td>34</td><td>48</td>
+   </tr>
+   <tr>
+    <td>Фуркация</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+   <tr>
+    <td>Кровоточивость при зондировании</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+  </table>
+
+  <img id="myImage" name = 0 src="static/periodontalchart/img/1.PNG">
+
+
+  <script>
+   function myFunction() {
+           var el = document.getElementById("myImage");
+           if (el.name == 0){
+              el.src = "static/periodontalchart/img/2.PNG";
+              el.name = 1;
+           }
+           else {
+              el.src = "static/periodontalchart/img/1.PNG";
+              el.name = 0;
+           }
+   }
+    </script>
+ </body>
+{% endblock smth1 %}
