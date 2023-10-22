@@ -25,6 +25,7 @@
  </head>
  <body>
   <table bgcolor=#ffffff align="center">
+     <table bgcolor=#ffffff align="center">
    <tr>
        <th>&nbsp;</th>
        <th><button onclick="myFunction()">18</button></th>
@@ -37,21 +38,26 @@
        <th><button type="button" name="18">11</button></th>
    </tr>
    <tr>
-    <td>Подвижность</td><td><input tupe="button" value=""></td><td><input tupe="button" value=""></td><td>79</td>
+    <td>Подвижность</td><td><input id="podv18" type="button" value=""></td><td><input type="button" value=""></td><td>79</td>
    </tr>
    <tr>
-    <td>Имплант</td><td>28</td><td>34</td><td>48</td>
+    <td>Имплант</td><td><button onclick="implant18()"></button></td><td><button onclick="implant19()"></button></td><td><button onclick="implant20()"></button></td>
    </tr>
    <tr>
-    <td>Фуркация</td><td>29</td><td>57</td><td>36</td>
+    <td>Кровоточивость при зонировании</td><td><button onclick="kr18_1()" id="kr18_1" class="kr18_1" name="0">r</button><button onclick="kr18_2()"></button><button onclick="kr18_3()"></button></td><td>57</td><td>36</td>
    </tr>
    <tr>
-    <td>Кровоточивость при зондировании</td><td>29</td><td>57</td><td>36</td>
+    <td>Зубные отложения</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+      <tr>
+    <td>Десневой край</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+      <tr>
+    <td>Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
    </tr>
   </table>
 
   <img id="myImage" name = 0 src="static/periodontalchart/img/1.PNG">
-
 
   <script>
    function myFunction() {
@@ -59,12 +65,15 @@
            if (el.name == 0){
               el.src = "static/periodontalchart/img/2.PNG";
               el.name = 1;
+              document.getElementById('podv18').hidden = true;
            }
            else {
               el.src = "static/periodontalchart/img/1.PNG";
               el.name = 0;
+              document.getElementById('podv18').hidden = false;
            }
    }
     </script>
+
  </body>
 {% endblock smth1 %}
