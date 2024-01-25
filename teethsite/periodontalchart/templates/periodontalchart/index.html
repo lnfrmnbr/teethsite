@@ -9,58 +9,67 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Таблица</title>
-  <style type="text/css">
-   TABLE {
-    width: 500px; /* Ширина таблицы */
-    border-collapse: collapse; /* Убираем двойные линии между ячейками */
-   }
-   TD, TH {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid black; /* Параметры рамки */
-   }
-   TH {
-    background: #b0e0e6; /* Цвет фона */
-   }
-  </style>
+    <title>Charts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
  </head>
  <body>
   <table bgcolor=#ffffff align="center">
-     <table bgcolor=#ffffff align="center">
    <tr>
        <th>&nbsp;</th>
-       <th><button onclick="myFunction()">18</button></th>
-       <th><button type="button" name="18">17</button></th>
-       <th><button type="button" name="18">16</button></th>
-       <th><button type="button" name="18">15</button></th>
-       <th><button type="button" name="18">14</button></th>
-       <th><button type="button" name="18">13</button></th>
-       <th><button type="button" name="18">12</button></th>
-       <th><button type="button" name="18">11</button></th>
+       <th><button onclick="exist18()" class="exist">18</button></th>
+       <th><button onclick="exist17()" class="exist">17</button></th>
+       <th><button onclick="exist16()" class="exist">16</button></th>
+       <th><button onclick="exist15()" class="exist">15</button></th>
+       <th><button onclick="exist14()" class="exist">14</button></th>
+       <th><button onclick="exist13()" class="exist">13</button></th>
+       <th><button onclick="exist12()" class="exist">12</button></th>
+       <th><button onclick="exist11()" class="exist">11</button></th>
    </tr>
    <tr>
-    <td>Подвижность</td><td><input id="podv18" type="button" value=""></td><td><input type="button" value=""></td><td>79</td>
+    <td>Подвижность</td><td><input id="podv18" type="number" value=""></td>
+                        <td><input id="podv17" type="number" value=""></td>
+                        <td><input id="podv16" type="number" value=""></td>
+                        <td><input id="podv15" type="number" value=""></td>
+                        <td><input id="podv14" type="number" value=""></td>
+                        <td><input id="podv13" type="number" value=""></td>
+                        <td><input id="podv12" type="number" value=""></td>
+                        <td><input id="podv11" type="number" value=""></td>
    </tr>
    <tr>
     <td>Имплант</td><td><button onclick="implant18()"></button></td><td><button onclick="implant19()"></button></td><td><button onclick="implant20()"></button></td>
    </tr>
    <tr>
-    <td>Кровоточивость при зонировании</td><td><button onclick="kr18_1()" id="kr18_1" class="kr18_1" name="0">r</button><button onclick="kr18_2()"></button><button onclick="kr18_3()"></button></td><td>57</td><td>36</td>
+    <td>Кровоточивость при зонировании</td>
+       <td class="td_kr"><button onclick="kr18_1()" id="kr18_1" name=0 class="kr"></button>
+           <button onclick="kr18_2()" id="kr18_2" name=0 class="kr"></button>
+           <button onclick="kr18_3()" id="kr18_3" name=0 class="kr"></button></td>
+       <td>57</td><td>36</td>
    </tr>
    <tr>
     <td>Зубные отложения</td><td>29</td><td>57</td><td>36</td>
    </tr>
       <tr>
-    <td>Десневой край</td><td>29</td><td>57</td><td>36</td>
+    <td>Десневой край</td><td><input type="number" class="number1"></td><td>57</td><td>36</td>
    </tr>
       <tr>
     <td>Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
    </tr>
   </table>
 
-  <img id="myImage" name = 0 src="static/periodontalchart/img/1.PNG">
+  <img id="myImage" name = 0 src="static/periodontalchart/img/1.PNG" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+<div style="position:absolute; top:360px; left:10px; width:200px; height:400px;">
+<canvas></canvas>
+</div>
   <script>
-   function myFunction() {
+   function exist18() {
            var el = document.getElementById("myImage");
            if (el.name == 0){
               el.src = "static/periodontalchart/img/2.PNG";
@@ -73,7 +82,45 @@
               document.getElementById('podv18').hidden = false;
            }
    }
-    </script>
 
+
+   function kr18_1() {
+           var el = document.getElementById("kr18_1");
+           if (el.name == 0){
+              el.style.backgroundColor = 'red';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = 'white';
+              el.name = 0;
+           }
+   }
+
+   function kr18_2() {
+           var el = document.getElementById("kr18_2");
+           if (el.name == 0){
+              el.style.backgroundColor = 'red';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = 'white';
+              el.name = 0;
+           }
+   }
+
+   function kr18_3() {
+           var el = document.getElementById("kr18_3");
+           if (el.name == 0){
+              el.style.backgroundColor = 'red';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = 'white';
+              el.name = 0;
+           }
+   }
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="static/periodontalchart/js/main.js"></script>
  </body>
 {% endblock smth1 %}
