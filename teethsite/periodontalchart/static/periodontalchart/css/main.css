@@ -44,10 +44,43 @@ body{
   z-index: 2;
 }
 
-#myImage {
-  position: absolute;
-  top: 550px;
-  left: 30px;
+.teeth_img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+#t18 {
+
+}
+#t17 {
+
+}
+
+#t16 {
+
+}
+
+#t15 {
+
+}
+
+#t14 {
+
+}
+
+#t13 {
+
+}
+
+#t12 {
+
+}
+
+#t11 {
+
 }
 
 input[type="number"] {
@@ -66,17 +99,27 @@ input[type="number"] {
    height: 15px;
 }
 
-table {
+#table1 {
     position: absolute;
-    top: 90px;
-    left: 30px;
-    width: 30%;
-    height: 30%;
+    top: 400px;
+    left: 100px;
+    width: 25%;
+    height: 25%;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+
+#table2 {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    width: 25%;
+    height: 25%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
 }
 td, th {
     padding: 3px; /* Поля вокруг содержимого таблицы */
     border: 1px solid black; /* Параметры рамки */
+    height: 50px;
 }
 th {
     background: #ffffff; /* Цвет фона */

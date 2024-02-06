@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main.css"/>
  </head>
  <body>
-  <table bgcolor=#ffffff align="center">
+  <table bgcolor=#ffffff align="center" id="table1">
    <tr>
        <th>&nbsp;</th>
        <th><button onclick="exist18()" class="exist">18</button></th>
@@ -55,29 +55,81 @@
       <tr>
     <td>Десневой край</td><td><input type="number" class="number1"></td><td><input type="number" class="number2"></td><td>36</td>
    </tr>
+   <tr>
+    <td>Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+   <tr>
+    <td>зубы</td>
+       <td style="padding: 0px;"><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
+       <td style="padding: 0px;"><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
+       <td style="padding: 0px;"><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
+       <td style="padding: 0px;"><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
+       <td style="padding: 0px;"><img id="t14" class = "teeth_img" name = 0 src="static/periodontalchart/img/t14.PNG"></td>
+       <td style="padding: 0px;"><img id="t13" class = "teeth_img" name = 0 src="static/periodontalchart/img/t13.PNG"></td>
+       <td style="padding: 0px;"><img id="t12" class = "teeth_img" name = 0 src="static/periodontalchart/img/t12.PNG"></td>
+       <td style="padding: 0px;"><img id="t11" class = "teeth_img" name = 0 src="static/periodontalchart/img/t11.PNG"></td>
+   </tr>
+  </table>
+
+  <table bgcolor=#ffffff align="center" id="table2">
+   <tr>
+       <th>&nbsp;</th>
+       <th><button onclick="exist21()" class="exist">21</button></th>
+       <th><button onclick="exist22()" class="exist">22</button></th>
+       <th><button onclick="exist23()" class="exist">23</button></th>
+       <th><button onclick="exist24()" class="exist">24</button></th>
+       <th><button onclick="exist25()" class="exist">25</button></th>
+       <th><button onclick="exist26()" class="exist">26</button></th>
+       <th><button onclick="exist27()" class="exist">27</button></th>
+       <th><button onclick="exist28()" class="exist">28</button></th>
+   </tr>
+   <tr>
+    <td>Подвижность</td><td><input id="podv21" type="number" value="0"></td>
+                        <td><input id="podv22" type="number" value="0"></td>
+                        <td><input id="podv23" type="number" value="0"></td>
+                        <td><input id="podv24" type="number" value="0"></td>
+                        <td><input id="podv25" type="number" value="0"></td>
+                        <td><input id="podv26" type="number" value="0"></td>
+                        <td><input id="podv27" type="number" value="0"></td>
+                        <td><input id="podv28" type="number" value="0"></td>
+   </tr>
+   <tr>
+    <td>Имплант</td><td><button onclick="implant18()"></button></td><td><button onclick="implant19()"></button></td><td><button onclick="implant20()"></button></td>
+   </tr>
+   <tr>
+    <td>Кровоточивость при зонировании</td>
+       <td class="td_kr"><button onclick="kr18_1()" id="kr21_1" name=0 class="kr"></button>
+           <button onclick="kr18_2()" id="kr22_2" name=0 class="kr"></button>
+           <button onclick="kr18_3()" id="kr23_3" name=0 class="kr"></button></td>
+       <td>57</td><td>36</td>
+   </tr>
+   <tr>
+    <td>Зубные отложения</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+      <tr>
+    <td>Десневой край</td><td><input type="number" class="number1"></td><td><input type="number" class="number2"></td><td>36</td>
+   </tr>
       <tr>
     <td>Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
    </tr>
   </table>
 
-  <img id="myImage" name = 0 src="static/periodontalchart/img/1.PNG" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
-<div style="position:absolute; top:550px; left:160px; width:200px; height:500px;">
+<div style="position:absolute; top:750px; left:160px; width:200px; height:500px;">
 <canvas></canvas>
 </div>
   <script>
    function exist18() {
-           var el = document.getElementById("myImage");
+           var el = document.getElementById("t18");
            if (el.name == 0){
               el.src = "static/periodontalchart/img/2.PNG";
               el.name = 1;
               document.getElementById('podv18').hidden = true;
            }
            else {
-              el.src = "static/periodontalchart/img/1.PNG";
+              el.src = "static/periodontalchart/img/t18.PNG";
               el.name = 0;
               document.getElementById('podv18').hidden = false;
            }
