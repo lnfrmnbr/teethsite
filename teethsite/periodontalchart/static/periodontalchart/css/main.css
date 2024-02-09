@@ -41,7 +41,7 @@ body{
 #menu ul li:hover { background-color: #9587b0; }
 
 #myChart {
-  z-index: 2;
+  z-index: 3;
 }
 
 .teeth_img {
@@ -49,77 +49,109 @@ body{
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 100%;
+  height: 180px;
 }
 
-#t18 {
-
-}
-#t17 {
-
-}
-
-#t16 {
-
+.td_text{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#t15 {
-
-}
-
-#t14 {
-
-}
-
-#t13 {
-
-}
-
-#t12 {
-
-}
-
-#t11 {
-
-}
-
-input[type="number"] {
+.desn{
    border: none;
-   width: 55px;
+   height: 15px;
+   width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+   padding: 0px;
+}
+
+.podv{
+   height: 20px;
+   width: 20px;
+}
+
+input[type="number"]{
+   border: none;
+   background: #fff0f5;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .exist{
+   width: 95%;
    border: none;
-   width: 55px;
+   margin: 2px;
+   background: #fff0f5;
 }
 
 .kr {
-   border: 1px solid black;
-   width: 15px;
+   border: none;
    height: 15px;
+   width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+   padding: 0px;
+}
+
+.otl {
+   border: none;
+   height: 15px;
+   width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+   padding: 0px;
 }
 
 #table1 {
     position: absolute;
     top: 400px;
-    left: 100px;
+    left: 200px;
     width: 25%;
     height: 25%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    z-index: 2;
+}
+
+.implant{
+   margin: 3%;
+   width: 95%;
+   height: 20px;
+   border: none;
+}
+
+.furk{
+   margin: 3%;
+   width: 95%;
+   height: 20px;
+   border: none;
 }
 
 #table2 {
     position: absolute;
     top: 400px;
-    left: 800px;
+    left: 700px;
     width: 25%;
     height: 25%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    z-index: 1;
 }
+
+.td_imgs {
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    padding-top: 15px;
+}
+
 td, th {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
     border: 1px solid black; /* Параметры рамки */
-    height: 50px;
 }
 th {
     background: #ffffff; /* Цвет фона */

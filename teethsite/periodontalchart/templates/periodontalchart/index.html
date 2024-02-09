@@ -18,8 +18,8 @@
  </head>
  <body>
   <table bgcolor=#ffffff align="center" id="table1">
-   <tr>
-       <th>&nbsp;</th>
+   <tr align="center">
+       <th class="td_text">&nbsp;</th>
        <th><button onclick="exist18()" class="exist">18</button></th>
        <th><button onclick="exist17()" class="exist">17</button></th>
        <th><button onclick="exist16()" class="exist">16</button></th>
@@ -29,51 +29,123 @@
        <th><button onclick="exist12()" class="exist">12</button></th>
        <th><button onclick="exist11()" class="exist">11</button></th>
    </tr>
-   <tr>
-    <td>Подвижность</td><td><input id="podv18" type="number" value="0"></td>
-                        <td><input id="podv17" type="number" value="0"></td>
-                        <td><input id="podv16" type="number" value="0"></td>
-                        <td><input id="podv15" type="number" value="0"></td>
-                        <td><input id="podv14" type="number" value="0"></td>
-                        <td><input id="podv13" type="number" value="0"></td>
-                        <td><input id="podv12" type="number" value="0"></td>
-                        <td><input id="podv11" type="number" value="0"></td>
+   <tr align="center">
+    <td class="td_text">Подвижность</td>
+       <td><input id="podv18" class="podv" type="number" value="0"></td>
+       <td><input id="podv17" class="podv" type="number" value="0"></td>
+       <td><input id="podv16" class="podv" type="number" value="0"></td>
+       <td><input id="podv15" class="podv" type="number" value="0"></td>
+       <td><input id="podv14" class="podv" type="number" value="0"></td>
+       <td><input id="podv13" class="podv" type="number" value="0"></td>
+       <td><input id="podv12" class="podv" type="number" value="0"></td>
+       <td><input id="podv11" class="podv" type="number" value="0"></td>
    </tr>
-   <tr>
-    <td>Имплант</td><td><button onclick="implant18()"></button></td><td><button onclick="implant19()"></button></td><td><button onclick="implant20()"></button></td>
+   <tr align="center">
+    <td class="td_text">Имплант</td>
+       <td><button class="implant" onclick="implant18()"></button></td>
+       <td><button class="implant" onclick="implant17()"></button></td>
+       <td><button class="implant" onclick="implant16()"></button></td>
+       <td><button class="implant" onclick="implant15()"></button></td>
+       <td><button class="implant" onclick="implant14()"></button></td>
+       <td><button class="implant" onclick="implant13()"></button></td>
+       <td><button class="implant" onclick="implant12()"></button></td>
+       <td><button class="implant" onclick="implant11()"></button></td>
    </tr>
-   <tr>
-    <td>Кровоточивость при зонировании</td>
-       <td class="td_kr"><button onclick="kr18_1()" id="kr18_1" name=0 class="kr"></button>
-           <button onclick="kr18_2()" id="kr18_2" name=0 class="kr"></button>
-           <button onclick="kr18_3()" id="kr18_3" name=0 class="kr"></button></td>
-       <td>57</td><td>36</td>
+    <tr align="center">
+    <td class="td_text">Фуркация</td>
+       <td><button class="furk" onclick="furk18()"></button></td>
+       <td><button class="furk" onclick="furk17()"></button></td>
+       <td><button class="furk" onclick="furk16()"></button></td>
+       <td><button class="furk" onclick="furk15()"></button></td>
+       <td><button class="furk" onclick="furk14()"></button></td>
+       <td><button class="furk" onclick="furk13()"></button></td>
+       <td><button class="furk" onclick="furk12()"></button></td>
+       <td><button class="furk" onclick="furk11()"></button></td>
    </tr>
-   <tr>
-    <td>Зубные отложения</td><td>29</td><td>57</td><td>36</td>
+   <tr align="center">
+    <td class="td_text">Кровоточивость</td>
+       <td class="td_kr">
+           <button onclick="kr18_1()" id="kr18_1" name=0 class="kr"></button><button onclick="kr18_2()" id="kr18_2" name=0 class="kr"></button><button onclick="kr18_3()" id="kr18_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr17_1()" id="kr17_1" name=0 class="kr"></button><button onclick="kr17_2()" id="kr17_2" name=0 class="kr"></button><button onclick="kr17_3()" id="kr17_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr16_1()" id="kr16_1" name=0 class="kr"></button><button onclick="kr16_2()" id="kr16_2" name=0 class="kr"></button><button onclick="kr16_3()" id="kr16_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr15_1()" id="kr15_1" name=0 class="kr"></button><button onclick="kr15_2()" id="kr15_2" name=0 class="kr"></button><button onclick="kr15_3()" id="kr15_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr14_1()" id="kr14_1" name=0 class="kr"></button><button onclick="kr14_2()" id="kr14_2" name=0 class="kr"></button><button onclick="kr14_3()" id="kr14_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr13_1()" id="kr13_1" name=0 class="kr"></button><button onclick="kr13_2()" id="kr13_2" name=0 class="kr"></button><button onclick="kr13_3()" id="kr13_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr12_1()" id="kr12_1" name=0 class="kr"></button><button onclick="kr12_2()" id="kr12_2" name=0 class="kr"></button><button onclick="kr12_3()" id="kr12_3" name=0 class="kr"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="kr11_1()" id="kr11_1" name=0 class="kr"></button><button onclick="kr11_2()" id="kr11_2" name=0 class="kr"></button><button onclick="kr11_3()" id="kr11_3" name=0 class="kr"></button>
+       </td>
    </tr>
-      <tr>
-    <td>Десневой край</td><td><input type="number" class="number1"></td><td><input type="number" class="number2"></td><td>36</td>
+   <tr align="center">
+    <td class="td_text">Зубные отложения</td>
+       <td class="td_kr">
+           <button onclick="otl18_1()" id="otl18_1" name=0 class="otl"></button><button onclick="otl18_2()" id="otl18_2" name=0 class="otl"></button><button onclick="otl18_3()" id="otl18_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl17_1()" id="otl17_1" name=0 class="otl"></button><button onclick="otl17_2()" id="otl17_2" name=0 class="otl"></button><button onclick="otl17_3()" id="otl17_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl16_1()" id="otl16_1" name=0 class="otl"></button><button onclick="otl16_2()" id="otl16_2" name=0 class="otl"></button><button onclick="otl16_3()" id="otl16_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl15_1()" id="otl15_1" name=0 class="otl"></button><button onclick="otl15_2()" id="otl15_2" name=0 class="otl"></button><button onclick="otl15_3()" id="otl15_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl14_1()" id="otl14_1" name=0 class="otl"></button><button onclick="otl14_2()" id="otl14_2" name=0 class="otl"></button><button onclick="otl14_3()" id="otl14_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl13_1()" id="otl13_1" name=0 class="otl"></button><button onclick="otl13_2()" id="otl13_2" name=0 class="otl"></button><button onclick="otl13_3()" id="otl13_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl12_1()" id="otl12_1" name=0 class="otl"></button><button onclick="otl12_2()" id="otl12_2" name=0 class="otl"></button><button onclick="otl12_3()" id="otl12_3" name=0 class="otl"></button>
+       </td>
+       <td class="td_kr">
+           <button onclick="otl11_1()" id="otl11_1" name=0 class="otl"></button><button onclick="otl11_2()" id="otl11_2" name=0 class="otl"></button><button onclick="otl11_3()" id="otl11_3" name=0 class="otl"></button>
+       </td>
+   </tr >
+      <tr align="center">
+    <td class="td_text">Десневой край</td>
+          <td><input type="number" class="desn" id="desn18_1"><input type="number" class="desn" id="desn18_2"><input type="number" class="desn" id="desn18_3"></td>
+          <td><input type="number" class="desn" id="desn17_1"><input type="number" class="desn" id="desn17_2"><input type="number" class="desn" id="desn17_3"></td>
+          <td><input type="number" class="desn" id="desn16_1"><input type="number" class="desn" id="desn16_2"><input type="number" class="desn" id="desn16_3"></td>
+          <td><input type="number" class="desn" id="desn15_1"><input type="number" class="desn" id="desn15_2"><input type="number" class="desn" id="desn15_3"></td>
+          <td><input type="number" class="desn" id="desn14_1"><input type="number" class="desn" id="desn14_2"><input type="number" class="desn" id="desn14_3"></td>
+          <td><input type="number" class="desn" id="desn13_1"><input type="number" class="desn" id="desn13_2"><input type="number" class="desn" id="desn13_3"></td>
+          <td><input type="number" class="desn" id="desn12_1"><input type="number" class="desn" id="desn12_2"><input type="number" class="desn" id="desn12_3"></td>
+          <td><input type="number" class="desn" id="desn11_1"><input type="number" class="desn" id="desn11_2"><input type="number" class="desn" id="desn11_3"></td>
    </tr>
-   <tr>
-    <td>Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
+   <tr align="center">
+    <td class="td_text">Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
    </tr>
-   <tr>
-    <td>зубы</td>
-       <td style="padding: 0px;"><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
-       <td style="padding: 0px;"><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
-       <td style="padding: 0px;"><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
-       <td style="padding: 0px;"><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
-       <td style="padding: 0px;"><img id="t14" class = "teeth_img" name = 0 src="static/periodontalchart/img/t14.PNG"></td>
-       <td style="padding: 0px;"><img id="t13" class = "teeth_img" name = 0 src="static/periodontalchart/img/t13.PNG"></td>
-       <td style="padding: 0px;"><img id="t12" class = "teeth_img" name = 0 src="static/periodontalchart/img/t12.PNG"></td>
-       <td style="padding: 0px;"><img id="t11" class = "teeth_img" name = 0 src="static/periodontalchart/img/t11.PNG"></td>
+   <tr align="center">
+    <td style="border: 0;"></td>
+       <td class = "td_imgs"><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
+       <td class = "td_imgs"><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
+       <td class = "td_imgs"><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
+       <td class = "td_imgs"><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
+       <td class = "td_imgs"><img id="t14" class = "teeth_img" name = 0 src="static/periodontalchart/img/t14.PNG"></td>
+       <td class = "td_imgs"><img id="t13" class = "teeth_img" name = 0 src="static/periodontalchart/img/t13.PNG"></td>
+       <td class = "td_imgs"><img id="t12" class = "teeth_img" name = 0 src="static/periodontalchart/img/t12.PNG"></td>
+       <td class = "td_imgs"><img id="t11" class = "teeth_img" name = 0 src="static/periodontalchart/img/t11.PNG"></td>
    </tr>
   </table>
 
   <table bgcolor=#ffffff align="center" id="table2">
-   <tr>
-       <th>&nbsp;</th>
+   <tr align="center">
+       <th style="border: none;"></th>
        <th><button onclick="exist21()" class="exist">21</button></th>
        <th><button onclick="exist22()" class="exist">22</button></th>
        <th><button onclick="exist23()" class="exist">23</button></th>
@@ -83,8 +155,8 @@
        <th><button onclick="exist27()" class="exist">27</button></th>
        <th><button onclick="exist28()" class="exist">28</button></th>
    </tr>
-   <tr>
-    <td>Подвижность</td><td><input id="podv21" type="number" value="0"></td>
+   <tr align="center">
+    <td class="td_text" style="border: none; color: white;">Подвижность</td><td><input id="podv21" type="number" value="0"></td>
                         <td><input id="podv22" type="number" value="0"></td>
                         <td><input id="podv23" type="number" value="0"></td>
                         <td><input id="podv24" type="number" value="0"></td>
@@ -93,24 +165,35 @@
                         <td><input id="podv27" type="number" value="0"></td>
                         <td><input id="podv28" type="number" value="0"></td>
    </tr>
-   <tr>
-    <td>Имплант</td><td><button onclick="implant18()"></button></td><td><button onclick="implant19()"></button></td><td><button onclick="implant20()"></button></td>
+   <tr align="center">
+    <td class="td_text" style="border: none; color: white;">Имплант</td><td><button onclick="implant18()"></button></td><td><button onclick="implant19()"></button></td><td><button onclick="implant20()"></button></td>
    </tr>
-   <tr>
-    <td>Кровоточивость при зонировании</td>
+   <tr align="center">
+    <td class="td_text" style="border: none; color: white;">Кровоточивость при зонировании</td>
        <td class="td_kr"><button onclick="kr18_1()" id="kr21_1" name=0 class="kr"></button>
            <button onclick="kr18_2()" id="kr22_2" name=0 class="kr"></button>
            <button onclick="kr18_3()" id="kr23_3" name=0 class="kr"></button></td>
        <td>57</td><td>36</td>
    </tr>
-   <tr>
-    <td>Зубные отложения</td><td>29</td><td>57</td><td>36</td>
+   <tr align="center">
+    <td class="td_text" style="border: none; color: white;">Зубные отложения</td><td>29</td><td>57</td><td>36</td>
    </tr>
-      <tr>
-    <td>Десневой край</td><td><input type="number" class="number1"></td><td><input type="number" class="number2"></td><td>36</td>
+      <tr align="center">
+    <td class="td_text" style="border: none; color: white;">Десневой край</td><td><input type="number" class="number1"></td><td><input type="number" class="number2"></td><td>36</td>
    </tr>
-      <tr>
-    <td>Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
+      <tr align="center">
+    <td class="td_text" style="border: none; color: white;">Глубина зондирования</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+      <tr align="center">
+      <td style="border: 0;"></td>
+       <td class = "td_imgs"><img id="t21" class = "teeth_img" name = 0 src="static/periodontalchart/img/t21.PNG"></td>
+       <td class = "td_imgs"><img id="t22" class = "teeth_img" name = 0 src="static/periodontalchart/img/t22.PNG"></td>
+       <td class = "td_imgs"><img id="t23" class = "teeth_img" name = 0 src="static/periodontalchart/img/t23.PNG"></td>
+       <td class = "td_imgs"><img id="t24" class = "teeth_img" name = 0 src="static/periodontalchart/img/t24.PNG"></td>
+       <td class = "td_imgs"><img id="t25" class = "teeth_img" name = 0 src="static/periodontalchart/img/t25.PNG"></td>
+       <td class = "td_imgs"><img id="t26" class = "teeth_img" name = 0 src="static/periodontalchart/img/t26.PNG"></td>
+       <td class = "td_imgs"><img id="t27" class = "teeth_img" name = 0 src="static/periodontalchart/img/t27.PNG"></td>
+       <td class = "td_imgs"><img id="t28" class = "teeth_img" name = 0 src="static/periodontalchart/img/t28.PNG"></td>
    </tr>
   </table>
 
@@ -143,7 +226,7 @@
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = 'white';
+              el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
    }
@@ -155,7 +238,7 @@
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = 'white';
+              el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
    }
@@ -167,7 +250,43 @@
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = 'white';
+              el.style.backgroundColor = '#fff0f5';
+              el.name = 0;
+           }
+   }
+
+   function otl18_1() {
+           var el = document.getElementById("otl18_1");
+           if (el.name == 0){
+              el.style.backgroundColor = 'blue';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = '#fff0f5';
+              el.name = 0;
+           }
+   }
+
+   function otl18_2() {
+           var el = document.getElementById("otl18_2");
+           if (el.name == 0){
+              el.style.backgroundColor = 'blue';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = '#fff0f5';
+              el.name = 0;
+           }
+   }
+
+   function otl18_3() {
+           var el = document.getElementById("otl18_3");
+           if (el.name == 0){
+              el.style.backgroundColor = 'blue';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
    }
