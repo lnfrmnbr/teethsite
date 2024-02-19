@@ -2,7 +2,9 @@ const canvas = document.querySelector('canvas');
 
 const desn18_1 = document.getElementById("desn18_1");
 desn18_1.addEventListener('input', (e) => {
-  chart.data.datasets[0].data[0] = e.target.value;
+  let x = e.target.value;
+  x=-x;
+  chart.data.datasets[0].data[0] = x;
   chart.update('none');
 });
 
@@ -17,9 +19,10 @@ Chart.defaults.plugins.legend.display = false;
 const chart = new Chart(canvas, {
    type: "line",
    data: {
-     labels: ["", "", ""],
+     labels: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
      datasets: [{
-       data: [0, 0, 0],
+       data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0, 0],
+       pointRadius: 0,
        borderColor: 'crimson',
        borderWidth: 2,
        backgroundColor: 'crimson',
@@ -32,19 +35,21 @@ const chart = new Chart(canvas, {
          scales: {
               x: {
                 grid: {
-                       display: false
+                       display: true
                 },
                 ticks: {
-                       display: false
+                       display: true
                 }
               },
               y: {
                  grid: {
-                        display: false
+                        display: true
                  },
                  ticks: {
-                       display: false
-                }
+                       display: true
+                },
+                min: -5,
+                max: 5,
                }
           },
 

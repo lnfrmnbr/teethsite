@@ -57,6 +57,7 @@ body{
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  padding: 1px;
 }
 
 .desn{
@@ -151,6 +152,16 @@ input[type="number"]::-webkit-outer-spin-button {
     height: 25%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
     z-index: 1;
+}
+
+#table3 {
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    width: 25%;
+    height: 25%;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    z-index: 2;
 }
 
 .td_imgs {
