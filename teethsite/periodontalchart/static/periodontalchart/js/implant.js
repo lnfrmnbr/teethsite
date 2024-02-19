@@ -69,7 +69,6 @@ function implant14() {
               el.name = 0;
            }
 }
-
 function implant13() {
            var el = document.getElementById("t13");
            if (el.name == 0){
@@ -82,6 +81,7 @@ function implant13() {
               el.name = 0;
            }
 }
+
 
 function implant12() {
            var el = document.getElementById("t12");
