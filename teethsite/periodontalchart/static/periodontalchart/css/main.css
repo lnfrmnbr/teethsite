@@ -48,10 +48,6 @@ body{
 
 #menu ul li:hover { background-color: #9587b0; }
 
-#myChart {
-  z-index: 3;
-}
-
 .teeth_img {
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -155,7 +151,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #table2 {
     position: relative;
-    margin-left: -300px;
+    margin-left: -200px;
     /*position: absolute;
     top: 400px;
     left: 600px;*/

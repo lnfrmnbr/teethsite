@@ -29,8 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.min.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="static/periodontalchart/css/main.css"/>
  </head>
  <body>
  <div class="div_tables12">
@@ -158,7 +157,7 @@
    </tr>
    <tr align="center">
     <td style="border: 0; font-weight: bold;">Вестибулярно</td>
-       <td class = "td_imgs"><img id="fi18" class = "fi" name=0 src=""><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
+       <td class = "td_imgs"><div style="position: absolute; bottom: -9px; width: 440px; height: 200px; z-index: 5;"><canvas></canvas></div><img id="fi18" class = "fi" name=0 src=""><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
        <td class = "td_imgs"><img id="fi17" class = "fi" name=0 src=""><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
        <td class = "td_imgs"><img id="fi16" class = "fi" name=0 src=""><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
        <td class = "td_imgs"><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
@@ -423,9 +422,6 @@
            }
    }
     </script>
-  <div style="position:absolute; top: 1000px; left: 17%; width:80%; height: 50%; z-index: 4;">
-            <canvas></canvas>
-            </div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="static/periodontalchart/js/main.js"></script>
   <script src="static/periodontalchart/js/kr.js"></script>

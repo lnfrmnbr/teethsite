@@ -1,55 +1,98 @@
 const canvas = document.querySelector('canvas');
 
-const desn18_1 = document.getElementById("desn18_1");
-desn18_1.addEventListener('input', (e) => {
-  let x = e.target.value;
-  x=-x;
-  chart.data.datasets[0].data[0] = x;
-  chart.update('none');
-});
+function desn(id) {
+    const el = document.getElementById(id);
+    el.addEventListener('input', (e) => {
+    let x = e.target.value;
+    x=-x;
+    const i = (8 - Number(id[5]))*3 + Number(id[7]) - 1;
+    chart.data.datasets[0].data[i].y = x;
+    chart.update('none');
+    });
+};
 
-const number2 = document.getElementById("desn18_2");
-desn18_2.addEventListener('input', (e) => {
-  chart.data.datasets[0].data[1] = e.target.value;
-  chart.update('none');
-});
+desn("desn18_1");
+desn("desn18_2");
+desn("desn18_3");
+desn("desn17_1");
+desn("desn17_2");
+desn("desn17_3");
+desn("desn16_1");
+desn("desn16_2");
+desn("desn16_3");
+desn("desn15_1");
+desn("desn15_2");
+desn("desn15_3");
+desn("desn14_1");
+desn("desn14_2");
+desn("desn14_3");
+desn("desn13_1");
+desn("desn13_2");
+desn("desn13_3");
+desn("desn12_1");
+desn("desn12_2");
+desn("desn12_3");
+desn("desn11_1");
+desn("desn11_2");
+desn("desn11_3");
 
 Chart.defaults.plugins.legend.display = false;
-
 const chart = new Chart(canvas, {
-   type: "line",
+   type: "scatter",
    data: {
-     labels: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
      datasets: [{
-       data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0, 0],
-       pointRadius: 0,
-       borderColor: 'crimson',
+        pointRadius: 2,
+        borderWidth: 2,
+        borderColor: 'crimson',
+        data: [{x: 0, y: 0}, {x: 1, y: 0}, {x: 2, y: 0},{x: 2.8, y: 0}, {x: 3.9, y: 0}, {x: 5, y: 0}, {x: 5.6, y: 0}, {x: 7, y: 0}, {x: 8.4, y: 0}, {x: 9.2, y: 0}, {x: 10, y: 0}, {x: 10.8, y: 0},
+        {x: 11.5, y: 0}, {x: 12.2, y: 0}, {x: 12.9, y: 0},{x: 13.6, y: 0},{x: 14.4, y: 0},{x: 15.2, y: 0}, {x: 16, y: 0},{x: 16.75, y: 0},{x: 17.5, y: 0},{x: 18.2, y: 0},{x: 19.1, y: 0},{x: 20, y: 0}],
+        showLine: true,
+    },{
+       pointRadius: 1,
+       fill: true,
        borderWidth: 2,
-       backgroundColor: 'crimson',
+       backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+       borderColor: "blue",
+       data: [{x: 0, y: 0}, {x: 1, y: 0}, {x: 2, y: 0},{x: 2.8, y: 0}, {x: 3.9, y: 0}, {x: 5, y: 0}, {x: 5.6, y: 0}, {x: 7, y: 0}, {x: 8.4, y: 0}, {x: 9.2, y: 0}, {x: 10, y: 0}, {x: 10.8, y: 0},
+        {x: 11.5, y: 0}, {x: 12.2, y: 0}, {x: 12.9, y: 0},{x: 13.6, y: 0},{x: 14.4, y: 0},{x: 15.2, y: 0}, {x: 16, y: 0},{x: 16.75, y: 0},{x: 17.5, y: 0},{x: 18.2, y: 0},{x: 19.1, y: 0},{x: 20, y: 0}],
+       showLine: true,
     }]
   },
   options: {
+         responsive: true,
+         maintainAspectRatio: false,
          tooltips: {
             enabled: false
          },
          scales: {
               x: {
                 grid: {
-                       display: true
+                       display: false
                 },
                 ticks: {
-                       display: true
-                }
+                       display: false
+                },
+                position: 'bottom',
               },
               y: {
+                 beginAtZero: true,
                  grid: {
+                        color: "rgba(0, 0, 0, 0.5)",
                         display: true
                  },
                  ticks: {
-                       display: true
+                       stepSize: 1,
+                       display: false
                 },
                 min: -5,
-                max: 5,
+                max: 10,
                }
           },
 
