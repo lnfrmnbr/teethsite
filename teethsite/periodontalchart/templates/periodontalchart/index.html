@@ -36,14 +36,14 @@
   <table bgcolor=#ffffff align="center" id="table1">
    <tr align="center">
        <th class="td_text">&nbsp;</th>
-       <th><button onclick="exist18()" class="exist">18</button></th>
-       <th><button onclick="exist17()" class="exist">17</button></th>
-       <th><button onclick="exist16()" class="exist">16</button></th>
-       <th><button onclick="exist15()" class="exist">15</button></th>
-       <th><button onclick="exist14()" class="exist">14</button></th>
-       <th><button onclick="exist13()" class="exist">13</button></th>
-       <th><button onclick="exist12()" class="exist">12</button></th>
-       <th><button onclick="exist11()" class="exist">11</button></th>
+       <th><button id="exist18" onclick="exist18()" name = 0 class="exist">18</button></th>
+       <th><button id="exist17" onclick="exist17()" name = 0 class="exist">17</button></th>
+       <th><button id="exist16" onclick="exist16()" name = 0 class="exist">16</button></th>
+       <th><button id="exist15" onclick="exist15()" name = 0 class="exist">15</button></th>
+       <th><button id="exist14" onclick="exist14()" name = 0 class="exist">14</button></th>
+       <th><button id="exist13" onclick="exist13()" name = 0 class="exist">13</button></th>
+       <th><button id="exist12" onclick="exist12()" name = 0 class="exist">12</button></th>
+       <th><button id="exist11" onclick="exist11()" name = 0 class="exist">11</button></th>
    </tr>
    <tr align="center">
     <td class="td_text">Подвижность</td>
@@ -58,14 +58,14 @@
    </tr>
    <tr align="center">
     <td class="td_text">Имплант</td>
-       <td><button class="implant" onclick="implant18()"><div id="impl_kvadr18"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div> </button></td>
-       <td><button class="implant" onclick="implant17()"><div id="impl_kvadr17"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
-       <td><button class="implant" onclick="implant16()"><div id="impl_kvadr16"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
-       <td><button class="implant" onclick="implant15()"><div id="impl_kvadr15"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
-       <td><button class="implant" onclick="implant14()"><div id="impl_kvadr14"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
-       <td><button class="implant" onclick="implant13()"><div id="impl_kvadr13"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
-       <td><button class="implant" onclick="implant12()"><div id="impl_kvadr12"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
-       <td><button class="implant" onclick="implant11()"><div id="impl_kvadr11"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant18" onclick="implant18()"><div id="impl_kvadr18"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div> </button></td>
+       <td><button class="implant" id="implant17" onclick="implant17()"><div id="impl_kvadr17"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant16" onclick="implant16()"><div id="impl_kvadr16"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant15" onclick="implant15()"><div id="impl_kvadr15"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant14" onclick="implant14()"><div id="impl_kvadr14"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant13" onclick="implant13()"><div id="impl_kvadr13"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant12" onclick="implant12()"><div id="impl_kvadr12"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" id="implant11" onclick="implant11()"><div id="impl_kvadr11"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
    </tr>
     <tr align="center">
     <td class="td_text">Фуркация</td>
@@ -157,14 +157,14 @@
    </tr>
    <tr align="center">
     <td style="border: 0; font-weight: bold;">Вестибулярно</td>
-       <td class = "td_imgs"><div style="position: absolute; bottom: -9px; width: 440px; height: 200px; z-index: 5;"><canvas></canvas></div><img id="fi18" class = "fi" name=0 src=""><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
-       <td class = "td_imgs"><img id="fi17" class = "fi" name=0 src=""><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
-       <td class = "td_imgs"><img id="fi16" class = "fi" name=0 src=""><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
-       <td class = "td_imgs"><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
-       <td class = "td_imgs"><img id="t14" class = "teeth_img" name = 0 src="static/periodontalchart/img/t14.PNG"></td>
-       <td class = "td_imgs"><img id="t13" class = "teeth_img" name = 0 src="static/periodontalchart/img/t13.PNG"></td>
-       <td class = "td_imgs"><img id="t12" class = "teeth_img" name = 0 src="static/periodontalchart/img/t12.PNG"></td>
-       <td class = "td_imgs"><img id="t11" class = "teeth_img" name = 0 src="static/periodontalchart/img/t11.PNG"></td>
+       <td class = "td_imgs"><img id="no18" class = "no" src=""><div style="position: absolute; bottom: -9px; width: 440px; height: 200px; z-index: 5;"><canvas></canvas></div><img id="fi18" class = "fi" name=0 src=""><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG"></td>
+       <td class = "td_imgs"><img id="no17" class = "no" src=""><img id="fi17" class = "fi" name=0 src=""><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
+       <td class = "td_imgs"><img id="no16" class = "no" src=""><img id="fi16" class = "fi" name=0 src=""><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
+       <td class = "td_imgs"><img id="no15" class = "no" src=""><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
+       <td class = "td_imgs"><img id="no14" class = "no" src=""><img id="t14" class = "teeth_img" name = 0 src="static/periodontalchart/img/t14.PNG"></td>
+       <td class = "td_imgs"><img id="no13" class = "no" src=""><img id="t13" class = "teeth_img" name = 0 src="static/periodontalchart/img/t13.PNG"></td>
+       <td class = "td_imgs"><img id="no12" class = "no" src=""><img id="t12" class = "teeth_img" name = 0 src="static/periodontalchart/img/t12.PNG"></td>
+       <td class = "td_imgs"><img id="no11" class = "no" src=""><img id="t11" class = "teeth_img" name = 0 src="static/periodontalchart/img/t11.PNG"></td>
    </tr>
   </table>
 
@@ -407,26 +407,12 @@
   </table>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-  <script>
-   function exist18() {
-           var el = document.getElementById("t18");
-           if (el.name == 0){
-              el.src = "static/periodontalchart/img/2.PNG";
-              el.name = 1;
-              document.getElementById('podv18').hidden = true;
-           }
-           else {
-              el.src = "static/periodontalchart/img/t18.PNG";
-              el.name = 0;
-              document.getElementById('podv18').hidden = false;
-           }
-   }
-    </script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="static/periodontalchart/js/main.js"></script>
   <script src="static/periodontalchart/js/kr.js"></script>
  <script src="static/periodontalchart/js/otl.js"></script>
  <script src="static/periodontalchart/js/implant.js"></script>
  <script src="static/periodontalchart/js/furk.js"></script>
+ <script src="static/periodontalchart/js/exist.js"></script>
  </body>
 {% endblock smth1 %}

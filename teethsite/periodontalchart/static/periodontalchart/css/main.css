@@ -218,6 +218,20 @@ input[type="number"]::-webkit-outer-spin-button {
    margin-left: 28px;
 }
 
+.no{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  z-index: 5;
+  width: 60px;
+}
+
+#no11{
+  bottom: -5px;
+}
+
 
 td, th {
     border: 1px solid black; /* Параметры рамки */
