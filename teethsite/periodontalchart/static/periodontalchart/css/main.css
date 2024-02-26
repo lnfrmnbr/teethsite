@@ -172,43 +172,43 @@ input[type="number"]::-webkit-outer-spin-button {
     align: center;
 }
 
-.f_img{
-    margin-top: 70px;
-    font-size: 25px;
-    position: absolute;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    z-index: 3;
-}
-
-#f18{
-    margin-left: 15px;
-}
-
-#f17{
-    margin-left: 20px;
-}
-
-#f16{
-    margin-left: 25px;
-}
-
 .fb{
+   width: 13px;
+}
+
+.fi{
    position: absolute;
+   width: 15px;
 }
 
-#fb18{
+#fi18{
+   margin-top: 87px;
    margin-left: 20px;
 }
 
-#fb17{
-   margin-left: 20px;
+#fi17{
+   margin-top: 85px;
+   margin-left: 23px;
 }
 
-#fb16{
+#fi16{
+   margin-top: 83px;
+   margin-left: 28px;
+}
+
+#fi28{
+   margin-top: 87px;
    margin-left: 25px;
+}
+
+#fi27{
+   margin-top: 85px;
+   margin-left: 25px;
+}
+
+#fi26{
+   margin-top: 83px;
+   margin-left: 28px;
 }
 
 

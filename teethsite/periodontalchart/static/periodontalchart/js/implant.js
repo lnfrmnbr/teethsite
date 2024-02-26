@@ -5,14 +5,16 @@ function implant18() {
               el.name = 1;
               document.getElementById('furk18').hidden = true;
               document.getElementById('impl_kvadr18').hidden = false;
-              document.getElementById('fb18').textContent = "dd";
+              document.getElementById('furk18').hidden = true;
+              document.getElementById('fi18').hidden = true;
            }
            else {
               el.src = "static/periodontalchart/img/t18.PNG";
               el.name = 0;
               document.getElementById('furk18').hidden = false;
               document.getElementById('impl_kvadr18').hidden = true;
-              document.getElementById('fb18').textContent = "";
+              document.getElementById('furk18').hidden = false;
+              document.getElementById('fi18').hidden = false;
            }
 }
 
@@ -23,12 +25,16 @@ function implant17() {
               el.name = 1;
               document.getElementById('furk17').hidden = true;
               document.getElementById('impl_kvadr17').hidden = false;
+              document.getElementById('furk17').hidden = true;
+              document.getElementById('fi17').hidden = true;
            }
            else {
               el.src = "static/periodontalchart/img/t17.PNG";
               el.name = 0;
               document.getElementById('furk17').hidden = false;
               document.getElementById('impl_kvadr17').hidden = true;
+              document.getElementById('furk17').hidden = false;
+              document.getElementById('fi17').hidden = false;
            }
 }
 
@@ -39,12 +45,16 @@ function implant16() {
               el.name = 1;
               document.getElementById('furk16').hidden = true;
               document.getElementById('impl_kvadr16').hidden = false;
+              document.getElementById('furk16').hidden = true;
+              document.getElementById('fi16').hidden = true;
            }
            else {
               el.src = "static/periodontalchart/img/t16.PNG";
               el.name = 0;
               document.getElementById('furk16').hidden = false;
               document.getElementById('impl_kvadr16').hidden = true;
+              document.getElementById('furk16').hidden = false;
+              document.getElementById('fi16').hidden = false;
            }
 }
 
