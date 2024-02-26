@@ -2,6 +2,14 @@ body{
     background: white;
 }
 
+.div_tables12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+}
+
 #menu ul{
         display: none;
         background-color: #81b5af;
@@ -135,9 +143,10 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 #table1 {
-    position: absolute;
-    top: 400px;
-    left: 100px;
+    position: relative;
+   /* position: absolute;
+   top: 400px;
+    left: 100px;*/
     width: 25%;
     height: 25%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
@@ -145,9 +154,11 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 #table2 {
-    position: absolute;
+    position: relative;
+    margin-left: -300px;
+    /*position: absolute;
     top: 400px;
-    left: 600px;
+    left: 600px;*/
     width: 25%;
     height: 25%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
