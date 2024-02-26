@@ -69,9 +69,9 @@
    </tr>
     <tr align="center">
     <td class="td_text">Фуркация</td>
-       <td><button class="furk" id="furk18" onclick="furk18()"></button></td>
-       <td><button class="furk" id="furk17" onclick="furk17()"></button></td>
-       <td><button class="furk" id="furk16" onclick="furk16()"></button></td>
+       <td><p class="fb" id="fb18">◐</p><button class="furk" id="furk18" onclick="furk18()"></button></td>
+       <td><p class="fb" id="fb17">◐</p><button class="furk" id="furk17" onclick="furk17()"></button></td>
+       <td><p class="fb" id="fb16">◐</p><button class="furk" id="furk16" onclick="furk16()"></button></td>
         <td></td>
        <td></td>
        <td></td>
@@ -107,7 +107,7 @@
        </td>
    </tr>
    <tr align="center">
-    <td class="td_text">Зубные отложения</td>
+    <td><button onclick="otlozh1()" id="otlozh1" style="border: none;">Зубные отложения</button></td>
        <td class="td_kr">
            <button onclick="otl18_1()" id="otl18_1" name=0 class="otl"></button><button onclick="otl18_2()" id="otl18_2" name=0 class="otl"></button><button onclick="otl18_3()" id="otl18_3" name=0 class="otl"></button>
        </td>
@@ -158,10 +158,10 @@
    <tr align="center">
     <td style="border: 0;"></td>
        <td class = "td_imgs">
-           <img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG">
+           <div class="f_img" id="f18">◐</div><img id="t18" class = "teeth_img" name = 0 src="static/periodontalchart/img/t18.PNG">
        </td>
-       <td class = "td_imgs"><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
-       <td class = "td_imgs"><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
+       <td class = "td_imgs"><div class="f_img" id="f17">◐</div><img id="t17" class = "teeth_img" name = 0 src="static/periodontalchart/img/t17.PNG"></td>
+       <td class = "td_imgs"><div class="f_img" id="f16">◐</div><img id="t16" class = "teeth_img" name = 0 src="static/periodontalchart/img/t16.PNG"></td>
        <td class = "td_imgs"><img id="t15" class = "teeth_img" name = 0 src="static/periodontalchart/img/t15.PNG"></td>
        <td class = "td_imgs"><img id="t14" class = "teeth_img" name = 0 src="static/periodontalchart/img/t14.PNG"></td>
        <td class = "td_imgs"><img id="t13" class = "teeth_img" name = 0 src="static/periodontalchart/img/t13.PNG"></td>
@@ -195,14 +195,14 @@
    </tr>
    <tr align="center">
     <td class="td_text" style="border: none; color: white;">Имплант</td>
-       <td><button class="implant" onclick="implant21()"></button></td>
-       <td><button class="implant" onclick="implant22()"></button></td>
-       <td><button class="implant" onclick="implant23()"></button></td>
-       <td><button class="implant" onclick="implant24()"></button></td>
-       <td><button class="implant" onclick="implant25()"></button></td>
-       <td><button class="implant" onclick="implant26()"></button></td>
-       <td><button class="implant" onclick="implant27()"></button></td>
-       <td><button class="implant" onclick="implant28()"></button></td>
+       <td><button class="implant" onclick="implant21()"><div id="impl_kvadr21"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant22()"><div id="impl_kvadr22"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant23()"><div id="impl_kvadr23"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant24()"><div id="impl_kvadr24"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant25()"><div id="impl_kvadr25"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant26()"><div id="impl_kvadr26"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant27()"><div id="impl_kvadr27"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
+       <td><button class="implant" onclick="implant28()"><div id="impl_kvadr28"  style="height: 10px; width: 10px; background-color: black; margin-left: 30%;" hidden="true"></div></button></td>
    </tr>
       <tr align="center">
     <td class="td_text" style="border: none; color: white;">Фуркация</td>
@@ -421,7 +421,7 @@
            }
    }
     </script>
-  <div style="position:absolute; top: 680px; left: 17%; width:80%; height: 50%; z-index: 4;">
+  <div style="position:absolute; top: 1000px; left: 17%; width:80%; height: 50%; z-index: 4;">
             <canvas></canvas>
             </div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>

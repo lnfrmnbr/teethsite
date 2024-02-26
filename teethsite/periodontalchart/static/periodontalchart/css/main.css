@@ -169,7 +169,48 @@ input[type="number"]::-webkit-outer-spin-button {
     padding-right: 0;
     border: 0;
     padding-top: 15px;
+    align: center;
 }
+
+.f_img{
+    margin-top: 70px;
+    font-size: 25px;
+    position: absolute;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 3;
+}
+
+#f18{
+    margin-left: 15px;
+}
+
+#f17{
+    margin-left: 20px;
+}
+
+#f16{
+    margin-left: 25px;
+}
+
+.fb{
+   position: absolute;
+}
+
+#fb18{
+   margin-left: 20px;
+}
+
+#fb17{
+   margin-left: 20px;
+}
+
+#fb16{
+   margin-left: 25px;
+}
+
 
 td, th {
     border: 1px solid black; /* Параметры рамки */
