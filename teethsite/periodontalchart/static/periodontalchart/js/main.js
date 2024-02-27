@@ -11,30 +11,16 @@ function desn(id) {
     });
 };
 
-desn("desn18_1");
-desn("desn18_2");
-desn("desn18_3");
-desn("desn17_1");
-desn("desn17_2");
-desn("desn17_3");
-desn("desn16_1");
-desn("desn16_2");
-desn("desn16_3");
-desn("desn15_1");
-desn("desn15_2");
-desn("desn15_3");
-desn("desn14_1");
-desn("desn14_2");
-desn("desn14_3");
-desn("desn13_1");
-desn("desn13_2");
-desn("desn13_3");
-desn("desn12_1");
-desn("desn12_2");
-desn("desn12_3");
-desn("desn11_1");
-desn("desn11_2");
-desn("desn11_3");
+function zond(id) {
+    const el = document.getElementById(id);
+    el.addEventListener('input', (e) => {
+    let x = e.target.value;
+    x=x;
+    const i = 0;
+    chart.data.datasets[1].data[i].y = x;
+    chart.update('none');
+    });
+};
 
 Chart.defaults.plugins.legend.display = false;
 const chart = new Chart(canvas, {
@@ -98,3 +84,54 @@ const chart = new Chart(canvas, {
 
       }
 });
+
+
+desn("desn18_1");
+desn("desn18_2");
+desn("desn18_3");
+desn("desn17_1");
+desn("desn17_2");
+desn("desn17_3");
+desn("desn16_1");
+desn("desn16_2");
+desn("desn16_3");
+desn("desn15_1");
+desn("desn15_2");
+desn("desn15_3");
+desn("desn14_1");
+desn("desn14_2");
+desn("desn14_3");
+desn("desn13_1");
+desn("desn13_2");
+desn("desn13_3");
+desn("desn12_1");
+desn("desn12_2");
+desn("desn12_3");
+desn("desn11_1");
+desn("desn11_2");
+desn("desn11_3");
+
+zond("zond18_1");
+zond("zond18_2");
+zond("zond18_3");
+zond("zond17_1");
+zond("zond17_2");
+zond("zond17_3");
+zond("zond16_1");
+zond("zond16_2");
+zond("zond16_3");
+zond("zond15_1");
+zond("zond15_2");
+zond("zond15_3");
+zond("zond14_1");
+zond("zond14_2");
+zond("zond14_3");
+zond("zond13_1");
+zond("zond13_2");
+zond("zond13_3");
+zond("zond12_1");
+zond("zond12_2");
+zond("zond12_3");
+zond("zond11_1");
+zond("zond11_2");
+zond("zond11_3");
