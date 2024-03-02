@@ -16,7 +16,7 @@ function zond(id) {
     el.addEventListener('input', (e) => {
     let x = e.target.value;
     x=x;
-    const i = 0;
+    const i = (8 - Number(id[5]))*3 + Number(id[7]) - 1;
     chart.data.datasets[1].data[i].y = x;
     chart.update('none');
     });
@@ -135,3 +135,4 @@ zond("zond12_3");
 zond("zond11_1");
 zond("zond11_2");
 zond("zond11_3");
+

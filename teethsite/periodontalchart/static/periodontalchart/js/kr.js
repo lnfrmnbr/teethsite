@@ -55,6 +55,19 @@ function krov1() {
            krov_dop("kr28_3");
 }
 
+function kr1(id_) {
+           var id = String(id_);
+           var el = document.getElementById("kr18_1");
+           if (el.name == 0){
+              el.style.backgroundColor = 'red';
+              el.name = 1;
+           }
+           else {
+              el.style.backgroundColor = '#fff0f5';
+              el.name = 0;
+           }
+}
+
 function kr18_1() {
            var el = document.getElementById("kr18_1");
            if (el.name == 0){
