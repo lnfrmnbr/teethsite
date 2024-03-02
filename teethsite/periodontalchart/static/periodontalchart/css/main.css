@@ -232,6 +232,9 @@ input[type="number"]::-webkit-outer-spin-button {
   bottom: -5px;
 }
 
+#no21{
+  bottom: -5px;
+}
 
 td, th {
     border: 1px solid black; /* Параметры рамки */

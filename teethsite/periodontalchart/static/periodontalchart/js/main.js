@@ -15,8 +15,8 @@ function zond(id) {
     const el = document.getElementById(id);
     el.addEventListener('input', (e) => {
     let x = e.target.value;
-    x=x;
     const i = (8 - Number(id[5]))*3 + Number(id[7]) - 1;
+    x = x - document.getElementById("zond18_1").value;
     chart.data.datasets[1].data[i].y = x;
     chart.update('none');
     });
@@ -27,14 +27,14 @@ const chart = new Chart(canvas, {
    type: "scatter",
    data: {
      datasets: [{
-        pointRadius: 2,
+        pointRadius: 0,
         borderWidth: 2,
         borderColor: 'crimson',
         data: [{x: 0, y: 0}, {x: 1, y: 0}, {x: 2, y: 0},{x: 2.8, y: 0}, {x: 3.9, y: 0}, {x: 5, y: 0}, {x: 5.6, y: 0}, {x: 7, y: 0}, {x: 8.4, y: 0}, {x: 9.2, y: 0}, {x: 10, y: 0}, {x: 10.8, y: 0},
         {x: 11.5, y: 0}, {x: 12.2, y: 0}, {x: 12.9, y: 0},{x: 13.6, y: 0},{x: 14.4, y: 0},{x: 15.2, y: 0}, {x: 16, y: 0},{x: 16.75, y: 0},{x: 17.5, y: 0},{x: 18.2, y: 0},{x: 19.1, y: 0},{x: 20, y: 0}],
         showLine: true,
     },{
-       pointRadius: 1,
+       pointRadius: 0,
        fill: true,
        borderWidth: 2,
        backgroundColor: [

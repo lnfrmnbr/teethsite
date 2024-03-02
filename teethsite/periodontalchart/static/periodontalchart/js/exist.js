@@ -12,7 +12,8 @@ function exist(id_) {
            var ls = create_ls_of_id(id);
            if (el.name == 0){
               el.name = 1;
-              for (var i =0; i< ls.length; i++){
+              document.getElementById('no'+id).hidden = false;
+              for (var i = 0; i< ls.length; i++){
                     document.getElementById(ls[i]).hidden = true;
               }
               if (id_ == 18 || id_ == 17 || id_ == 16 || id_ == 28 || id_ == 27 || id_ == 26){
@@ -23,17 +24,15 @@ function exist(id_) {
                     document.getElementById('t'+id).name = 0;
                     document.getElementById('t'+id).src = "static/periodontalchart/img/t"+id+".PNG";
               }
-              document.getElementById('no'+id).hidden = false;
            }
            else {
-              el.src = "";
               el.name = 0;
+              document.getElementById('no'+id).hidden = true;
               for (var i =0; i< ls.length; i++){
                     document.getElementById(ls[i]).hidden = false;
               }
               if (id_ == 18 || id_ == 17 || id_ == 16 || id_ == 28 || id_ == 27 || id_ == 26){
                     document.getElementById("furk"+id).hidden = false;
               }
-              document.getElementById('no'+id).hidden = true;
            }
 }

@@ -55,8 +55,60 @@ function otlozh1() {
            otlozh_dop("otl28_3");
 }
 
-function otl18_1() {
-           var el = document.getElementById("otl18_1");
+function otlozh2() {
+           otlozh_dop("otl182_1")
+           otlozh_dop("otl182_2");
+           otlozh_dop("otl182_3");
+           otlozh_dop("otl172_1");
+           otlozh_dop("otl172_2");
+           otlozh_dop("otl172_3");
+           otlozh_dop("otl162_1");
+           otlozh_dop("otl162_2");
+           otlozh_dop("otl162_3");
+           otlozh_dop("otl152_1");
+           otlozh_dop("otl152_2");
+           otlozh_dop("otl152_3");
+           otlozh_dop("otl142_1");
+           otlozh_dop("otl142_2");
+           otlozh_dop("otl142_3");
+           otlozh_dop("otl132_1");
+           otlozh_dop("otl132_2");
+           otlozh_dop("otl132_3");
+           otlozh_dop("otl122_1");
+           otlozh_dop("otl122_2");
+           otlozh_dop("otl122_3");
+           otlozh_dop("otl112_1");
+           otlozh_dop("otl112_2");
+           otlozh_dop("otl112_3");
+           otlozh_dop("otl212_1");
+           otlozh_dop("otl212_2");
+           otlozh_dop("otl212_3");
+           otlozh_dop("otl222_1");
+           otlozh_dop("otl222_2");
+           otlozh_dop("otl222_3");
+           otlozh_dop("otl232_1");
+           otlozh_dop("otl232_2");
+           otlozh_dop("otl232_3");
+           otlozh_dop("otl242_1");
+           otlozh_dop("otl242_2");
+           otlozh_dop("otl242_3");
+           otlozh_dop("otl252_1");
+           otlozh_dop("otl252_2");
+           otlozh_dop("otl252_3");
+           otlozh_dop("otl262_1");
+           otlozh_dop("otl262_2");
+           otlozh_dop("otl262_3");
+           otlozh_dop("otl272_1");
+           otlozh_dop("otl272_2");
+           otlozh_dop("otl272_3");
+           otlozh_dop("otl282_1");
+           otlozh_dop("otl282_2");
+           otlozh_dop("otl282_3");
+}
+
+function otl1(id_) {
+           var id = String(id_);
+           var el = document.getElementById("otl"+id+"_1");
            if (el.name == 0){
               el.style.backgroundColor = 'blue';
               el.name = 1;
@@ -67,8 +119,9 @@ function otl18_1() {
            }
 }
 
-function otl18_2() {
-           var el = document.getElementById("otl18_2");
+function otl2(id_) {
+           var id = String(id_);
+           var el = document.getElementById("otl"+id+"_2");
            if (el.name == 0){
               el.style.backgroundColor = 'blue';
               el.name = 1;
@@ -79,260 +132,9 @@ function otl18_2() {
            }
 }
 
-function otl18_3() {
-           var el = document.getElementById("otl18_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl17_1() {
-           var el = document.getElementById("otl17_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl17_2() {
-           var el = document.getElementById("otl17_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl17_3() {
-           var el = document.getElementById("otl17_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl16_1() {
-           var el = document.getElementById("otl16_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl16_2() {
-           var el = document.getElementById("otl16_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl16_3() {
-           var el = document.getElementById("otl16_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl14_1() {
-           var el = document.getElementById("otl14_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl14_2() {
-           var el = document.getElementById("otl14_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl14_3() {
-           var el = document.getElementById("otl14_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl13_1() {
-           var el = document.getElementById("otl13_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl13_2() {
-           var el = document.getElementById("otl13_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl13_3() {
-           var el = document.getElementById("otl13_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl12_1() {
-           var el = document.getElementById("otl12_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl12_2() {
-           var el = document.getElementById("otl12_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl12_3() {
-           var el = document.getElementById("otl12_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl11_1() {
-           var el = document.getElementById("otl11_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl11_2() {
-           var el = document.getElementById("otl11_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl11_3() {
-           var el = document.getElementById("otl11_3");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl15_1() {
-           var el = document.getElementById("otl15_1");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl15_2() {
-           var el = document.getElementById("otl15_2");
-           if (el.name == 0){
-              el.style.backgroundColor = 'blue';
-              el.name = 1;
-           }
-           else {
-              el.style.backgroundColor = '#fff0f5';
-              el.name = 0;
-           }
-}
-
-function otl15_3() {
-           var el = document.getElementById("otl15_3");
+function otl3(id_) {
+           var id = String(id_);
+           var el = document.getElementById("otl"+id+"_3");
            if (el.name == 0){
               el.style.backgroundColor = 'blue';
               el.name = 1;
