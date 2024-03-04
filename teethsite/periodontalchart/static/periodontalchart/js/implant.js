@@ -13,6 +13,12 @@ function implant(id_) {
                     document.getElementById('fi'+id+"2_1").hidden = true;
                     document.getElementById('fi'+id+"2_2").hidden = true;
               }
+              if (id_ == 14 || id_ == 24){
+                    document.getElementById('furk'+id+"2_1").hidden = true;
+                    document.getElementById('furk'+id+"2_2").hidden = true;
+                    document.getElementById('fi'+id+"2_1").hidden = true;
+                    document.getElementById('fi'+id+"2_2").hidden = true;
+              }
            }
            else {
               el.src = "static/periodontalchart/img/t"+id+".PNG";
@@ -23,6 +29,12 @@ function implant(id_) {
                     document.getElementById('furk'+id+"2_1").hidden = false;
                     document.getElementById('furk'+id+"2_2").hidden = false;
                     document.getElementById('fi'+id).hidden = false;
+                    document.getElementById('fi'+id+"2_1").hidden = false;
+                    document.getElementById('fi'+id+"2_2").hidden = false;
+              }
+              if (id_ == 14|| id_ == 24){
+                    document.getElementById('furk'+id+"2_1").hidden = false;
+                    document.getElementById('furk'+id+"2_2").hidden = false;
                     document.getElementById('fi'+id+"2_1").hidden = false;
                     document.getElementById('fi'+id+"2_2").hidden = false;
               }

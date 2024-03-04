@@ -1,35 +1,32 @@
-const canvas2 = document.getElementById('chart2');
+const canvas4 = document.getElementById('chart4');
 
-function desn2(id) {
+function desn4(id) {
     const el = document.getElementById(id);
     el.addEventListener('input', (e) => {
-    let x = e.target.value;
-    x=-x;
-    const i = (Number(id[5])-1)*3 + Number(id[7]) - 1;
-    chart2.data.datasets[0].data[i].y = x;
-    let m = Number(document.getElementById('zond'+id[4]+id[5]+'_'+id[7]).value);
-    if (Number(chart2.data.datasets[1].data[i].y) != m+x){
-            m = m+x;
-            chart2.data.datasets[1].data[i].y = m;
+    let d = e.target.value;
+    const i = (Number(id[5])-1)*3 + Number(id[8]) - 1;
+    chart4.data.datasets[0].data[i].y = d;
+    let z = Number(document.getElementById('zond'+id[4]+id[5]+'2_'+id[8]).value);
+    if (Number(chart4.data.datasets[1].data[i].y) != d-z){
+            chart4.data.datasets[1].data[i].y = d-z;
     }
-    chart2.update('none');
+    chart4.update('none');
     });
 };
 
-function zond2(id) {
+function zond4(id) {
     const el = document.getElementById(id);
     el.addEventListener('input', (e) => {
-    let x = e.target.value;
-    const i = (Number(id[5])-1)*3 + Number(id[7]) - 1;
-    let m = Number(document.getElementById('desn'+id[4]+id[5]+'_'+id[7]).value);
-    x = x - m;
-    chart2.data.datasets[1].data[i].y = x;
-    chart2.update('none');
+    let z = e.target.value;
+    const i = (Number(id[5])-1)*3 + Number(id[8]) - 1;
+    let d = Number(document.getElementById('desn'+id[4]+id[5]+'2_'+id[8]).value);
+    chart4.data.datasets[1].data[i].y = d-z;
+    chart4.update('none');
     });
 };
 
 Chart.defaults.plugins.legend.display = false;
-const chart2 = new Chart(canvas2, {
+const chart4 = new Chart(canvas4, {
    type: "scatter",
    data: {
      datasets: [{
@@ -83,8 +80,8 @@ const chart2 = new Chart(canvas2, {
                        stepSize: 1,
                        display: false
                 },
-                min: -5,
-                max: 10,
+                min: -8,
+                max: 5,
                }
           },
 
@@ -92,52 +89,52 @@ const chart2 = new Chart(canvas2, {
 });
 
 
-desn2("desn28_1");
-desn2("desn28_2");
-desn2("desn28_3");
-desn2("desn27_1");
-desn2("desn27_2");
-desn2("desn27_3");
-desn2("desn26_1");
-desn2("desn26_2");
-desn2("desn26_3");
-desn2("desn25_1");
-desn2("desn25_2");
-desn2("desn25_3");
-desn2("desn24_1");
-desn2("desn24_2");
-desn2("desn24_3");
-desn2("desn23_1");
-desn2("desn23_2");
-desn2("desn23_3");
-desn2("desn22_1");
-desn2("desn22_2");
-desn2("desn22_3");
-desn2("desn21_1");
-desn2("desn21_2");
-desn2("desn21_3");
-zond2("zond28_1");
-zond2("zond28_2");
-zond2("zond28_3");
-zond2("zond27_1");
-zond2("zond27_2");
-zond2("zond27_3");
-zond2("zond26_1");
-zond2("zond26_2");
-zond2("zond26_3");
-zond2("zond25_1");
-zond2("zond25_2");
-zond2("zond25_3");
-zond2("zond24_1");
-zond2("zond24_2");
-zond2("zond24_3");
-zond2("zond23_1");
-zond2("zond23_2");
-zond2("zond23_3");
-zond2("zond22_1");
-zond2("zond22_2");
-zond2("zond22_3");
-zond2("zond21_1");
-zond2("zond21_2");
-zond2("zond21_3");
+desn4("desn282_1");
+desn4("desn282_2");
+desn4("desn282_3");
+desn4("desn272_1");
+desn4("desn272_2");
+desn4("desn272_3");
+desn4("desn262_1");
+desn4("desn262_2");
+desn4("desn262_3");
+desn4("desn252_1");
+desn4("desn252_2");
+desn4("desn252_3");
+desn4("desn242_1");
+desn4("desn242_2");
+desn4("desn242_3");
+desn4("desn232_1");
+desn4("desn232_2");
+desn4("desn232_3");
+desn4("desn222_1");
+desn4("desn222_2");
+desn4("desn222_3");
+desn4("desn212_1");
+desn4("desn212_2");
+desn4("desn212_3");
+zond4("zond282_1");
+zond4("zond282_2");
+zond4("zond282_3");
+zond4("zond272_1");
+zond4("zond272_2");
+zond4("zond272_3");
+zond4("zond262_1");
+zond4("zond262_2");
+zond4("zond262_3");
+zond4("zond252_1");
+zond4("zond252_2");
+zond4("zond252_3");
+zond4("zond242_1");
+zond4("zond242_2");
+zond4("zond242_3");
+zond4("zond232_1");
+zond4("zond232_2");
+zond4("zond232_3");
+zond4("zond222_1");
+zond4("zond222_2");
+zond4("zond222_3");
+zond4("zond212_1");
+zond4("zond212_2");
+zond4("zond212_3");
 
