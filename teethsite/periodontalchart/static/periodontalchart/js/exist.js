@@ -47,6 +47,8 @@ function exist(id_) {
                     document.getElementById('impl_kvadr'+id).hidden = true;
                     document.getElementById('t'+id).name = 0;
                     document.getElementById('t'+id).src = "static/periodontalchart/img/t"+id+".PNG";
+                    document.getElementById('t'+id+'2').name = 0;
+                    document.getElementById('t'+id+'2').src = "static/periodontalchart/img/t"+id+"2.PNG";
               }
            }
            else {

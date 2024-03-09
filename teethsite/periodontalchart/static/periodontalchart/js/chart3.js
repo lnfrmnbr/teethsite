@@ -36,9 +36,11 @@ const chart3 = new Chart(canvas3, {
         data: [{x: 0, y: 0}, {x: 1, y: 0}, {x: 2, y: 0},{x: 2.8, y: 0}, {x: 3.9, y: 0}, {x: 5, y: 0}, {x: 5.6, y: 0}, {x: 7, y: 0}, {x: 8.4, y: 0}, {x: 9.2, y: 0}, {x: 10, y: 0}, {x: 10.8, y: 0},
         {x: 11.5, y: 0}, {x: 12.2, y: 0}, {x: 12.9, y: 0},{x: 13.6, y: 0},{x: 14.4, y: 0},{x: 15.2, y: 0}, {x: 16, y: 0},{x: 16.75, y: 0},{x: 17.5, y: 0},{x: 18.2, y: 0},{x: 19.1, y: 0},{x: 20, y: 0}],
         showLine: true,
+        fill: true,
+        backgroundColor: 'rgba(0,0,0,0)',
     },{
        pointRadius: 0,
-       fill: true,
+       fill: '-1',
        borderWidth: 2,
        backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',

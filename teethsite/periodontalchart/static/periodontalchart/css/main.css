@@ -2,7 +2,7 @@ body{
     background: white;
 }
 
-.div_tables12{
+.div_tables1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +10,28 @@ body{
     top: 400px;
 }
 
-.div_tables34{
+.div_tables2{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 900px;
+}
+
+.div_tables3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1400px;
+}
+
+.div_tables4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1900px;
 }
 
 #menu ul{
@@ -165,7 +181,23 @@ input[type="number"]::-webkit-outer-spin-button {
     z-index: 2;
 }
 
+#table2 {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    z-index: 2;
+}
+
 #table3 {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    z-index: 2;
+}
+
+#table4 {
     position: relative;
     width: 25%;
     height: 25%;
@@ -257,6 +289,46 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #fi142_2{
    margin-top: 80px;
+   margin-left: 25px;
+}
+
+#fi282_1{
+   margin-top: 81px;
+   margin-left: 6px;
+}
+
+#fi282_2{
+   margin-top: 79px;
+   margin-left: 39px;
+}
+
+#fi272_1{
+   margin-top: 92px;
+   margin-left: 16px;
+}
+
+#fi272_2{
+   margin-top: 88px;
+   margin-left: 45px;
+}
+
+#fi262_1{
+   margin-top: 80px;
+   margin-left: 12px;
+}
+
+#fi262_2{
+   margin-top: 93px;
+   margin-left: 50px;
+}
+
+#fi242_1{
+   margin-top: 80px;
+   margin-left: 7px;
+}
+
+#fi242_2{
+   margin-top: 93px;
    margin-left: 25px;
 }
 
