@@ -1,5 +1,6 @@
 body{
     background: white;
+    align-items: center;
 }
 
 .div_tables1{
@@ -15,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 900px;
+    top: 950px;
 }
 
 .div_tables3{
@@ -23,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1400px;
+    top: 1450px;
 }
 
 .div_tables4{
@@ -31,7 +32,20 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1900px;
+    top: 1950px;
+}
+
+.indexes{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid;
+    width: 50%;
+    top: 2450px;
+    padding-bottom: 30px;
 }
 
 #menu ul{
@@ -147,6 +161,14 @@ input[type="number"]::-webkit-outer-spin-button {
    padding: 0px;
 }
 
+.kam {
+   border: none;
+   height: 15px;
+   width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+   padding: 0px;
+}
 
 .implant{
    margin: 3%;
@@ -175,32 +197,32 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #table1 {
     position: relative;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
     z-index: 2;
 }
 
 #table2 {
     position: relative;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
     z-index: 2;
 }
 
 #table3 {
     position: relative;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
     z-index: 2;
 }
 
 #table4 {
     position: relative;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
     z-index: 2;
 }

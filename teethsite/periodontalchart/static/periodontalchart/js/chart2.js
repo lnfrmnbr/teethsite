@@ -85,8 +85,8 @@ const chart2 = new Chart(canvas2, {
                        stepSize: 1,
                        display: false
                 },
-                min: -5,
-                max: 10,
+                min: -9,
+                max: 17,
                }
           },
 

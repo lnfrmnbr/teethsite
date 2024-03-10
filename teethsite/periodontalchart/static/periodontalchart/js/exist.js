@@ -1,5 +1,5 @@
 function create_ls_of_id(id){
-     var ls = ["podv??", "implant??", "kr??_1", "kr??_2", "kr??_3", "otl??_1", "otl??_2", "otl??_3", "desn??_1", "desn??_2", "desn??_3", "zond??_1", "zond??_2", "zond??_3"];
+     var ls = ["podv??", "implant??", "kr??_1", "kr??_2", "kr??_3", "otl??_1", "otl??_2", "otl??_3", "kam??_1", "kam??_2", "kam??_3", "desn??_1", "desn??_2", "desn??_3", "zond??_1", "zond??_2", "zond??_3"];
      for (var i =0; i< ls.length; i++){
                     ls[i] = ls[i].replace("??", id);
      }
@@ -7,7 +7,7 @@ function create_ls_of_id(id){
 }
 
 function create_ls_of_id2(id){
-     var ls = ["kr??_1", "kr??_2", "kr??_3", "otl??_1", "otl??_2", "otl??_3", "desn??_1", "desn??_2", "desn??_3", "zond??_1", "zond??_2", "zond??_3"];
+     var ls = ["kr??_1", "kr??_2", "kr??_3", "otl??_1", "otl??_2", "otl??_3", "kam??_1", "kam??_2", "kam??_3", "desn??_1", "desn??_2", "desn??_3", "zond??_1", "zond??_2", "zond??_3"];
      for (var i =0; i< ls.length; i++){
                     ls[i] = ls[i].replace("??", id);
      }
@@ -36,6 +36,12 @@ function exist(id_) {
                     document.getElementById("fi"+id+"2_1").hidden = true;
                     document.getElementById("furk"+id+"2_2").hidden = true;
                     document.getElementById("fi"+id+"2_2").hidden = true;
+              }
+              if (id_ == 48 || id_ == 47 || id_ == 46 || id_ == 38 || id_ == 37 || id_ == 36){
+                    document.getElementById("furk"+id).hidden = true;
+                    document.getElementById("fi"+id).hidden = true;
+                    document.getElementById("furk"+id+"2").hidden = true;
+                    document.getElementById("fi"+id+"2").hidden = true;
               }
               if (id_ == 14){
                     document.getElementById("furk"+id+"2_1").hidden = true;
@@ -69,6 +75,12 @@ function exist(id_) {
                     document.getElementById("furk"+id+"2_2").hidden = false;
                     document.getElementById("fi"+id+"2_2").hidden = false;
               }
+              if (id_ == 48 || id_ == 47 || id_ == 46 || id_ == 38 || id_ == 37 || id_ == 36){
+                    document.getElementById("furk"+id).hidden = false;
+                    document.getElementById("fi"+id).hidden = false;
+                    document.getElementById("furk"+id+"2").hidden = false;
+                    document.getElementById("fi"+id+"2").hidden = false;
+              }
               if (id_ == 14){
                     document.getElementById("furk"+id+"2_1").hidden = false;
                     document.getElementById("fi"+id+"2_1").hidden = false;
@@ -76,4 +88,5 @@ function exist(id_) {
                     document.getElementById("fi"+id+"2_2").hidden = false;
               }
            }
+           ohis();
 }

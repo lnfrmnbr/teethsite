@@ -1,6 +1,6 @@
 function otlozh_dop(id){
      var el = document.getElementById(id);
-     el.style.backgroundColor = 'blue';
+     el.style.backgroundColor = 'Gold';
      el.name = 1;
 }
 
@@ -110,7 +110,7 @@ function otl1(id_) {
            var id = String(id_);
            var el = document.getElementById("otl"+id+"_1");
            if (el.name == 0){
-              el.style.backgroundColor = 'blue';
+              el.style.backgroundColor = 'Gold';
               el.name = 1;
            }
            else {
@@ -123,7 +123,7 @@ function otl2(id_) {
            var id = String(id_);
            var el = document.getElementById("otl"+id+"_2");
            if (el.name == 0){
-              el.style.backgroundColor = 'blue';
+              el.style.backgroundColor = 'Gold';
               el.name = 1;
            }
            else {
@@ -136,7 +136,7 @@ function otl3(id_) {
            var id = String(id_);
            var el = document.getElementById("otl"+id+"_3");
            if (el.name == 0){
-              el.style.backgroundColor = 'blue';
+              el.style.backgroundColor = 'Gold';
               el.name = 1;
            }
            else {

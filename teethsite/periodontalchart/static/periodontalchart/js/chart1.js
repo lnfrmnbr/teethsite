@@ -76,7 +76,6 @@ const chart1 = new Chart(canvas1, {
                 position: 'bottom',
               },
               y: {
-                 beginAtZero: true,
                  grid: {
                         color: "rgba(0, 0, 0, 0.5)",
                         display: true
@@ -85,8 +84,8 @@ const chart1 = new Chart(canvas1, {
                        stepSize: 1,
                        display: false
                 },
-                min: -5,
-                max: 10,
+                min: -9,
+                max: 17,
                }
           },
 
