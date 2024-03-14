@@ -2,6 +2,7 @@ function kamen_dop(id){
      var el = document.getElementById(id);
      el.style.backgroundColor = 'DimGrey';
      el.name = 1;
+     cpitn();
 }
 
 function kamen1() {
@@ -117,6 +118,7 @@ function kam1(id_) {
               el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
+           cpitn();
 }
 
 function kam2(id_) {
@@ -130,6 +132,7 @@ function kam2(id_) {
               el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
+           cpitn();
 }
 
 function kam3(id_) {
@@ -143,4 +146,5 @@ function kam3(id_) {
               el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
+           cpitn();
 }

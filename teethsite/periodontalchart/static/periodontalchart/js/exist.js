@@ -88,5 +88,8 @@ function exist(id_) {
                     document.getElementById("fi"+id+"2_2").hidden = false;
               }
            }
-           ohis();
+           pi();
+           bop();
+           api();
+           cpitn();
 }

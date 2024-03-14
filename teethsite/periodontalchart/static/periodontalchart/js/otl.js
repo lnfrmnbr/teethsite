@@ -2,6 +2,8 @@ function otlozh_dop(id){
      var el = document.getElementById(id);
      el.style.backgroundColor = 'Gold';
      el.name = 1;
+     pi();
+     api();
 }
 
 function otlozh1() {
@@ -106,6 +108,108 @@ function otlozh2() {
            otlozh_dop("otl282_3");
 }
 
+function otlozh3() {
+           otlozh_dop("otl48_1")
+           otlozh_dop("otl48_2");
+           otlozh_dop("otl48_3");
+           otlozh_dop("otl47_1");
+           otlozh_dop("otl47_2");
+           otlozh_dop("otl47_3");
+           otlozh_dop("otl46_1");
+           otlozh_dop("otl46_2");
+           otlozh_dop("otl46_3");
+           otlozh_dop("otl45_1");
+           otlozh_dop("otl45_2");
+           otlozh_dop("otl45_3");
+           otlozh_dop("otl44_1");
+           otlozh_dop("otl44_2");
+           otlozh_dop("otl44_3");
+           otlozh_dop("otl43_1");
+           otlozh_dop("otl43_2");
+           otlozh_dop("otl43_3");
+           otlozh_dop("otl42_1");
+           otlozh_dop("otl42_2");
+           otlozh_dop("otl42_3");
+           otlozh_dop("otl41_1");
+           otlozh_dop("otl41_2");
+           otlozh_dop("otl41_3");
+           otlozh_dop("otl31_1");
+           otlozh_dop("otl31_2");
+           otlozh_dop("otl31_3");
+           otlozh_dop("otl32_1");
+           otlozh_dop("otl32_2");
+           otlozh_dop("otl32_3");
+           otlozh_dop("otl33_1");
+           otlozh_dop("otl33_2");
+           otlozh_dop("otl33_3");
+           otlozh_dop("otl34_1");
+           otlozh_dop("otl34_2");
+           otlozh_dop("otl34_3");
+           otlozh_dop("otl35_1");
+           otlozh_dop("otl35_2");
+           otlozh_dop("otl35_3");
+           otlozh_dop("otl36_1");
+           otlozh_dop("otl36_2");
+           otlozh_dop("otl36_3");
+           otlozh_dop("otl37_1");
+           otlozh_dop("otl37_2");
+           otlozh_dop("otl37_3");
+           otlozh_dop("otl38_1");
+           otlozh_dop("otl38_2");
+           otlozh_dop("otl38_3");
+}
+
+function otlozh4() {
+           otlozh_dop("otl482_1")
+           otlozh_dop("otl482_2");
+           otlozh_dop("otl482_3");
+           otlozh_dop("otl472_1");
+           otlozh_dop("otl472_2");
+           otlozh_dop("otl472_3");
+           otlozh_dop("otl462_1");
+           otlozh_dop("otl462_2");
+           otlozh_dop("otl462_3");
+           otlozh_dop("otl452_1");
+           otlozh_dop("otl452_2");
+           otlozh_dop("otl452_3");
+           otlozh_dop("otl442_1");
+           otlozh_dop("otl442_2");
+           otlozh_dop("otl442_3");
+           otlozh_dop("otl432_1");
+           otlozh_dop("otl432_2");
+           otlozh_dop("otl432_3");
+           otlozh_dop("otl422_1");
+           otlozh_dop("otl422_2");
+           otlozh_dop("otl422_3");
+           otlozh_dop("otl412_1");
+           otlozh_dop("otl412_2");
+           otlozh_dop("otl412_3");
+           otlozh_dop("otl312_1");
+           otlozh_dop("otl312_2");
+           otlozh_dop("otl312_3");
+           otlozh_dop("otl322_1");
+           otlozh_dop("otl322_2");
+           otlozh_dop("otl322_3");
+           otlozh_dop("otl332_1");
+           otlozh_dop("otl332_2");
+           otlozh_dop("otl332_3");
+           otlozh_dop("otl342_1");
+           otlozh_dop("otl342_2");
+           otlozh_dop("otl342_3");
+           otlozh_dop("otl352_1");
+           otlozh_dop("otl352_2");
+           otlozh_dop("otl352_3");
+           otlozh_dop("otl362_1");
+           otlozh_dop("otl362_2");
+           otlozh_dop("otl362_3");
+           otlozh_dop("otl372_1");
+           otlozh_dop("otl372_2");
+           otlozh_dop("otl372_3");
+           otlozh_dop("otl382_1");
+           otlozh_dop("otl382_2");
+           otlozh_dop("otl382_3");
+}
+
 function otl1(id_) {
            var id = String(id_);
            var el = document.getElementById("otl"+id+"_1");
@@ -117,6 +221,8 @@ function otl1(id_) {
               el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
+           pi();
+           api();
 }
 
 function otl2(id_) {
@@ -130,6 +236,8 @@ function otl2(id_) {
               el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
+           pi();
+           api();
 }
 
 function otl3(id_) {
@@ -143,4 +251,6 @@ function otl3(id_) {
               el.style.backgroundColor = '#fff0f5';
               el.name = 0;
            }
+           pi();
+           api();
 }
