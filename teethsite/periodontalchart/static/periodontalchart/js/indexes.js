@@ -268,7 +268,7 @@ function cpitn(){
     }
     for (var i =0; i< ls_kam_sec6.length; i++){
         kam_sec6+=Number(document.getElementById(ls_kam_sec6[i]).name);
-    }*/
+    }
     var el1 = document.getElementById("cpitn_1");
 
    if (kam_sec1 > 0){

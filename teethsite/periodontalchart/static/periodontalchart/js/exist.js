@@ -17,10 +17,20 @@ function create_ls_of_id2(id){
 function exist(id_) {
            var id = String(id_);
            var el = document.getElementById("exist"+id);
-           var ls = create_ls_of_id(id);
+           var ls = create_ls_of_id(id_);
            var ls2 = create_ls_of_id2(id+"2");
            if (el.name == 0){
               el.name = 1;
+              zeroing_values(id);
+              if (id[0] == "1" || id[0] == "2"){
+                    zeroing1(id);
+                    zeroing2(id);
+                    zeroing3(id);
+                    zeroing4(id);
+              }
+              else{
+                    zeroing5(id);
+              }
               document.getElementById('no'+id).hidden = false;
               document.getElementById('no'+id+"2").hidden = false;
               for (var i = 0; i< ls.length; i++){

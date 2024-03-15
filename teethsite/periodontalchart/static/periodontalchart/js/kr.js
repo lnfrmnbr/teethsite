@@ -1,6 +1,6 @@
 function krov_dop(id){
      var el = document.getElementById(id);
-     el.style.backgroundColor = 'DarkRed';
+     el.style.backgroundColor = 'IndianRed';
      el.name = 1;
      bop();
      cpitn();
@@ -214,7 +214,7 @@ function kr1(id_) {
            var id = String(id_);
            var el = document.getElementById("kr"+id+"_1");
            if (el.name == 0){
-              el.style.backgroundColor = 'DarkRed';
+              el.style.backgroundColor = 'IndianRed';
               el.name = 1;
            }
            else {
@@ -229,7 +229,7 @@ function kr2(id_) {
            var id = String(id_);
            var el = document.getElementById("kr"+id+"_2");
            if (el.name == 0){
-              el.style.backgroundColor = 'DarkRed';
+              el.style.backgroundColor = 'IndianRed';
               el.name = 1;
            }
            else {
@@ -244,7 +244,7 @@ function kr3(id_) {
            var id = String(id_);
            var el = document.getElementById("kr"+id+"_3");
            if (el.name == 0){
-              el.style.backgroundColor = 'DarkRed';
+              el.style.backgroundColor = 'IndianRed';
               el.name = 1;
            }
            else {

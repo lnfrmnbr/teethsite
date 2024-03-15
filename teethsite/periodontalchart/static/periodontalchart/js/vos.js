@@ -1,6 +1,6 @@
 function vosp_dop(id){
      var el = document.getElementById(id);
-     el.style.backgroundColor = 'IndianRed';
+     el.style.backgroundColor = 'YellowGreen';
      el.name = 1;
 }
 
@@ -110,7 +110,7 @@ function vos1(id_) {
            var id = String(id_);
            var el = document.getElementById("vos"+id+"_1");
            if (el.name == 0){
-              el.style.backgroundColor = 'IndianRed';
+              el.style.backgroundColor = 'YellowGreen';
               el.name = 1;
            }
            else {
@@ -123,7 +123,7 @@ function vos2(id_) {
            var id = String(id_);
            var el = document.getElementById("vos"+id+"_2");
            if (el.name == 0){
-              el.style.backgroundColor = 'IndianRed';
+              el.style.backgroundColor = 'YellowGreen';
               el.name = 1;
            }
            else {
@@ -136,7 +136,7 @@ function vos3(id_) {
            var id = String(id_);
            var el = document.getElementById("vos"+id+"_3");
            if (el.name == 0){
-              el.style.backgroundColor = 'IndianRed';
+              el.style.backgroundColor = 'YellowGreen';
               el.name = 1;
            }
            else {

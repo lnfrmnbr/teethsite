@@ -1,5 +1,31 @@
 const canvas1 = document.getElementById('chart1');
 
+function zeroing1(id){
+    const i = (8 - Number(id[1]))*3;
+    chart1.data.datasets[0].data[i].y = 0;
+    chart1.data.datasets[1].data[i].y = 0;
+    chart1.data.datasets[0].data[i+1].y = 0;
+    chart1.data.datasets[1].data[i+1].y = 0;
+    chart1.data.datasets[0].data[i+2].y = 0;
+    chart1.data.datasets[1].data[i+2].y = 0;
+    chart1.update('none');
+}
+
+function zeroing_values(id){
+    document.getElementById("desn"+id+"_1").value = 0;
+    document.getElementById("desn"+id+"_2").value = 0;
+    document.getElementById("desn"+id+"_3").value = 0;
+    document.getElementById("zond"+id+"_1").value = 0;
+    document.getElementById("zond"+id+"_2").value = 0;
+    document.getElementById("zond"+id+"_3").value = 0;
+    document.getElementById("desn"+id+"2_1").value = 0;
+    document.getElementById("desn"+id+"2_2").value = 0;
+    document.getElementById("desn"+id+"2_3").value = 0;
+    document.getElementById("zond"+id+"2_1").value = 0;
+    document.getElementById("zond"+id+"2_2").value = 0;
+    document.getElementById("zond"+id+"2_3").value = 0;
+}
+
 function desn(id) {
     const el = document.getElementById(id);
     el.addEventListener('input', (e) => {

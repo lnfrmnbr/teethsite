@@ -1,5 +1,16 @@
 const canvas4 = document.getElementById('chart4');
 
+function zeroing4(id){
+    const i = (Number(id[1])-1)*3;
+    chart4.data.datasets[0].data[i].y = 0;
+    chart4.data.datasets[1].data[i].y = 0;
+    chart4.data.datasets[0].data[i+1].y = 0;
+    chart4.data.datasets[1].data[i+1].y = 0;
+    chart4.data.datasets[0].data[i+2].y = 0;
+    chart4.data.datasets[1].data[i+2].y = 0;
+    chart4.update('none');
+}
+
 function desn4(id) {
     const el = document.getElementById(id);
     el.addEventListener('input', (e) => {

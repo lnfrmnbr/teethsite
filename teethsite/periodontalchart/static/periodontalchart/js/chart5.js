@@ -1,5 +1,16 @@
 const canvas5 = document.getElementById('chart5');
 
+function zeroing5(id){
+    const i = (8 - Number(id[1]))*3;
+    chart5.data.datasets[0].data[i].y = 0;
+    chart5.data.datasets[1].data[i].y = 0;
+    chart5.data.datasets[0].data[i+1].y = 0;
+    chart5.data.datasets[1].data[i+1].y = 0;
+    chart5.data.datasets[0].data[i+2].y = 0;
+    chart5.data.datasets[1].data[i+2].y = 0;
+    chart5.update('none');
+}
+
 function desn(id) {
     const el = document.getElementById(id);
     el.addEventListener('input', (e) => {
