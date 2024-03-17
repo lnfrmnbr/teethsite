@@ -30,6 +30,9 @@ function exist(id_) {
               }
               else{
                     zeroing5(id);
+                    zeroing6(id);
+                    zeroing7(id);
+                    zeroing8(id);
               }
               document.getElementById('no'+id).hidden = false;
               document.getElementById('no'+id+"2").hidden = false;
