@@ -37,6 +37,7 @@ function zond6(id) {
     chart6.data.datasets[1].data[i].y = x;
     chart6.update('none');
     });
+    cpitn();
 };
 
 Chart.defaults.plugins.legend.display = false;

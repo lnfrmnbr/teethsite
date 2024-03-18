@@ -34,6 +34,7 @@ function zond4(id) {
     chart4.data.datasets[1].data[i].y = d-z;
     chart4.update('none');
     });
+    cpitn();
 };
 
 Chart.defaults.plugins.legend.display = false;
