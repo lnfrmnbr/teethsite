@@ -33,8 +33,8 @@ function zond3(id) {
     let d = Number(document.getElementById('desn'+id[4]+id[5]+'2_'+id[8]).value);
     chart3.data.datasets[1].data[i].y = d-z;
     chart3.update('none');
-    });
     cpitn();
+    });
 };
 
 Chart.defaults.plugins.legend.display = false;

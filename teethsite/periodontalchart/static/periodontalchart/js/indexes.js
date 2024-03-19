@@ -292,7 +292,7 @@ function cpitn(){
     for (var i =0; i< ls_zond_sec1.length; i++){
         zond_sec1=Math.max(zond_sec1, Number(document.getElementById(ls_zond_sec1[i]).value));
     }
-    /*for (var i =0; i< ls_zond_sec2.length; i++){
+    for (var i =0; i< ls_zond_sec2.length; i++){
         zond_sec2=Math.max(zond_sec2,Number(document.getElementById(ls_zond_sec2[i]).value));
     }
     for (var i =0; i< ls_zond_sec3.length; i++){
@@ -306,7 +306,7 @@ function cpitn(){
     }
     for (var i =0; i< ls_zond_sec6.length; i++){
         zond_sec6=Math.max(zond_sec6,Number(document.getElementById(ls_zond_sec6[i]).value));
-    }*/
+    }
 
     var el1 = document.getElementById("cpitn_1");
     var el2 = document.getElementById("cpitn_2");
@@ -328,7 +328,7 @@ function cpitn(){
         el1.textContent = "1";
    }
 
-   /*if (zond_sec2 >= 6){
+   if (zond_sec2 >= 6){
         el2.textContent = "4";
    }
    else if (zond_sec2 >= 4){
@@ -391,7 +391,7 @@ function cpitn(){
    }
    else if (kr_sec6 > 0){
         el6.textContent = "1";
-   }*/
+   }
 
 }
 

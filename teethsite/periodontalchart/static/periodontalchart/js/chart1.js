@@ -51,8 +51,8 @@ function zond(id) {
     x = x - m;
     chart1.data.datasets[1].data[i].y = x;
     chart1.update('none');
-    });
     cpitn();
+    });
 };
 
 Chart.defaults.plugins.legend.display = false;
