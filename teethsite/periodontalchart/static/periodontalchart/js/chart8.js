@@ -33,7 +33,7 @@ function zond8(id) {
     let d = Number(document.getElementById('desn'+id[4]+id[5]+'2_'+id[8]).value);
     chart8.data.datasets[1].data[i].y = d-z;
     chart8.update('none');
-
+    //cpitn();
     });
 };
 
@@ -42,7 +42,7 @@ const chart8 = new Chart(canvas8, {
    type: "scatter",
    data: {
      datasets: [{
-        pointRadius: 2,
+        pointRadius:2,
         borderWidth: 2,
         borderColor: 'crimson',
         data: [{x: 0, y: 0}, {x: 0.9, y: 0}, {x: 1.8, y: 0},{x: 2.6, y: 0}, {x: 3.35, y: 0}, {x: 4.1, y: 0}, {x: 4.9, y: 0}, {x: 5.7, y: 0}, {x: 6.5, y: 0}, {x: 7.3, y: 0}, {x: 8.1, y: 0}, {x: 8.8, y: 0},
@@ -94,14 +94,13 @@ const chart8 = new Chart(canvas8, {
                        stepSize: 1,
                        display: false
                 },
-                max: 9,
-                min: -16,
+                max: 8,
+                min: -17,
                }
           },
 
       }
 });
-
 
 desn8("desn382_1");
 desn8("desn382_2");
@@ -127,7 +126,6 @@ desn8("desn322_3");
 desn8("desn312_1");
 desn8("desn312_2");
 desn8("desn312_3");
-
 zond8("zond382_1");
 zond8("zond382_2");
 zond8("zond382_3");
