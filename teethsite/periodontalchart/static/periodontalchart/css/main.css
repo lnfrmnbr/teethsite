@@ -195,6 +195,15 @@ input[type="number"]::-webkit-outer-spin-button {
   justify-content: center;
 }
 
+.pupe{
+   margin: 3%;
+   width: 95%;
+   height: 20px;
+   border: none;
+   align-items: center;
+  justify-content: center;
+}
+
 #table1 {
     position: relative;
     width: 20%;

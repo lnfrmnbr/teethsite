@@ -46,8 +46,8 @@ const chart5 = new Chart(canvas5, {
    data: {
      datasets: [{
         pointRadius: 2,
-        borderWidth: 2,
-        borderColor: 'crimson',
+        borderWidth: 2.5,
+        borderColor: '#da8c99',
         data: [{x: 0, y: 0}, {x: 1.3, y: 0}, {x: 2.6, y: 0},{x: 3.6, y: 0}, {x: 13.9, y: 0}, {x: 6.3, y: 0}, {x: 15.6, y: 0}, {x: 7, y: 0}, {x: 8.4, y: 0}, {x: 9.2, y: 0}, {x: 10, y: 0}, {x: 10.8, y: 0},
         {x: 11.5, y: 0}, {x: 12.2, y: 0}, {x: 12.9, y: 0},{x: 13.6, y: 0},{x: 14.4, y: 0},{x: 15.2, y: 0}, {x: 16, y: 0},{x: 16.75, y: 0},{x: 17.5, y: 0},{x: 18.2, y: 0},{x: 19.1, y: 0},{x: 20, y: 0}],
         showLine: true,
@@ -56,7 +56,7 @@ const chart5 = new Chart(canvas5, {
     },{
        pointRadius: 0,
        fill: '-1',
-       borderWidth: 2,
+       borderWidth: 2.5,
        backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
