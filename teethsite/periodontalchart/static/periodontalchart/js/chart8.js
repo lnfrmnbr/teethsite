@@ -33,7 +33,7 @@ function zond8(id) {
     let d = Number(document.getElementById('desn'+id[4]+id[5]+'2_'+id[8]).value);
     chart8.data.datasets[1].data[i].y = d-z;
     chart8.update('none');
-    //cpitn();
+    cpitn();
     });
 };
 
@@ -44,7 +44,7 @@ const chart8 = new Chart(canvas8, {
      datasets: [{
         pointRadius:2,
         borderWidth: 2,
-        borderColor: 'crimson',
+        borderColor: '#da8c99',
         data: [{x: 0, y: 0}, {x: 0.9, y: 0}, {x: 1.8, y: 0},{x: 2.6, y: 0}, {x: 3.35, y: 0}, {x: 4.1, y: 0}, {x: 4.9, y: 0}, {x: 5.7, y: 0}, {x: 6.5, y: 0}, {x: 7.3, y: 0}, {x: 8.1, y: 0}, {x: 8.8, y: 0},
         {x: 9.3, y: 0}, {x: 10.2, y: 0}, {x: 11, y: 0},{x: 11.6, y: 0},{x: 13, y: 0},{x: 14.4, y: 0}, {x: 15.1, y: 0},{x: 16.2, y: 0},{x: 17.3, y: 0},{x: 18, y: 0},{x: 19, y: 0},{x: 20, y: 0}],
         showLine: true,

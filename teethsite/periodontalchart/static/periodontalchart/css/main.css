@@ -43,9 +43,10 @@ body{
     align-items: center;
     position: relative;
     border: 1px solid;
-    top: 2450px;
+    top: 2500px;
     padding-bottom: 30px;
     width: 60%;
+    height: 70px;
 }
 
 #menu ul{
