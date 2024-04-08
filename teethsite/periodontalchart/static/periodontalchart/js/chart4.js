@@ -83,6 +83,7 @@ const chart4 = new Chart(canvas4, {
                        display: false
                 },
                 position: 'bottom',
+                max: 20.5,
               },
               y: {
                  beginAtZero: true,

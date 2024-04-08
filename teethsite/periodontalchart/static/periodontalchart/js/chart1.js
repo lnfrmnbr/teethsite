@@ -101,6 +101,7 @@ const chart1 = new Chart(canvas1, {
                        display: false
                 },
                 position: 'bottom',
+                max: 20.5,
               },
               y: {
                  grid: {

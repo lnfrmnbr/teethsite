@@ -42,7 +42,7 @@ const chart7 = new Chart(canvas7, {
    type: "scatter",
    data: {
      datasets: [{
-        pointRadius: 2,
+        pointRadius: 0,
         borderWidth: 2,
         borderColor: '#da8c99',
         data: [{x: 0, y: 0}, {x: 1.2, y: 0}, {x: 2.4, y: 0},{x: 3.4, y: 0}, {x: 4.7, y: 0}, {x: 6.0, y: 0}, {x: 6.8, y: 0}, {x: 8.1, y: 0}, {x: 9.4, y: 0}, {x: 10.6, y: 0}, {x: 11.1, y: 0}, {x: 11.6, y: 0},

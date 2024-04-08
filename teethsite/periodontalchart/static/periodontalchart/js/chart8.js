@@ -42,7 +42,7 @@ const chart8 = new Chart(canvas8, {
    type: "scatter",
    data: {
      datasets: [{
-        pointRadius:2,
+        pointRadius:0,
         borderWidth: 2,
         borderColor: '#da8c99',
         data: [{x: 0, y: 0}, {x: 0.9, y: 0}, {x: 1.8, y: 0},{x: 2.6, y: 0}, {x: 3.35, y: 0}, {x: 4.1, y: 0}, {x: 4.9, y: 0}, {x: 5.7, y: 0}, {x: 6.5, y: 0}, {x: 7.3, y: 0}, {x: 8.1, y: 0}, {x: 8.8, y: 0},
@@ -83,6 +83,7 @@ const chart8 = new Chart(canvas8, {
                        display: false
                 },
                 position: 'bottom',
+                max: 20.5,
               },
               y: {
                  beginAtZero: true,
@@ -94,8 +95,8 @@ const chart8 = new Chart(canvas8, {
                        stepSize: 1,
                        display: false
                 },
-                max: 8,
-                min: -17,
+                max: 9,
+                min: -16,
                }
           },
 

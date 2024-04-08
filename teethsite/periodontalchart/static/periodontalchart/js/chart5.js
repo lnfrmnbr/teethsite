@@ -45,7 +45,7 @@ const chart5 = new Chart(canvas5, {
    type: "scatter",
    data: {
      datasets: [{
-        pointRadius: 2,
+        pointRadius: 0,
         borderWidth: 2.5,
         borderColor: '#da8c99',
         data: [{x: 0, y: 0}, {x: 1.3, y: 0}, {x: 2.6, y: 0},{x: 3.6, y: 0}, {x: 4.95, y: 0}, {x: 6.3, y: 0}, {x: 7, y: 0}, {x: 8.3, y: 0}, {x: 9.6, y: 0}, {x: 10.8, y: 0}, {x: 11.45, y: 0}, {x: 12.1, y: 0},
@@ -86,6 +86,7 @@ const chart5 = new Chart(canvas5, {
                        display: false
                 },
                 position: 'bottom',
+                max: 20.5,
               },
               y: {
                  grid: {
