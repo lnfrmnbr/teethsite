@@ -1,5 +1,5 @@
 function create_ls_of_id(id){
-     var ls = ["podv??", "implant??", "kr??_1", "kr??_2", "kr??_3", "otl??_1", "otl??_2", "otl??_3", "vos??_1", "vos??_2", "vos??_3","kam??_1", "kam??_2", "kam??_3", "desn??_1", "desn??_2", "desn??_3", "zond??_1", "zond??_2", "zond??_3"];
+     var ls = ["podv??", "implant??", "pupe??", "kr??_1", "kr??_2", "kr??_3", "otl??_1", "otl??_2", "otl??_3", "vos??_1", "vos??_2", "vos??_3","kam??_1", "kam??_2", "kam??_3", "desn??_1", "desn??_2", "desn??_3", "zond??_1", "zond??_2", "zond??_3"];
      for (var i =0; i< ls.length; i++){
                     ls[i] = ls[i].replace("??", id);
      }
@@ -36,6 +36,13 @@ function exist(id_) {
               }
               document.getElementById('no'+id).hidden = false;
               document.getElementById('no'+id+"2").hidden = false;
+              if (document.getElementById("t"+id).name != 0){
+                    document.getElementById("t"+id).name = 0;
+                    document.getElementById("t"+id+"2").name = 0;
+                    document.getElementById("t"+id).src = "static/periodontalchart/img/t"+id+".PNG";;
+                    document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.PNG";
+                    document.getElementById("pupe"+id).style.backgroundColor = '#fff0f5';
+              }
               for (var i = 0; i< ls.length; i++){
                     document.getElementById(ls[i]).hidden = true;
               }
