@@ -5,7 +5,7 @@ function implant(id_) {
               el.src = "static/periodontalchart/img/t"+id+"i.PNG";
               document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2i.PNG";
               document.getElementById('impl_kvadr'+id).hidden = false;
-              document.getElementById('pupe'+id).style.backgroundColor = '#fff0f5';
+              document.getElementById('pupe'+id).style.backgroundColor = '#f0f0f0';
               document.getElementById('pupe'+id).hidden = true;
               el.name = 1;
               if (id_ == 18 || id_ == 17 || id_ == 16 || id_ == 28 || id_ == 27 || id_ == 26){

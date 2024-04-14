@@ -218,7 +218,7 @@ function otl1(id_) {
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = '#fff0f5';
+              el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
            pi();
@@ -233,7 +233,7 @@ function otl2(id_) {
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = '#fff0f5';
+              el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
            pi();
@@ -248,7 +248,7 @@ function otl3(id_) {
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = '#fff0f5';
+              el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
            pi();

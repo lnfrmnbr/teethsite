@@ -218,7 +218,7 @@ function kr1(id_) {
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = '#fff0f5';
+              el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
            bop();
@@ -233,7 +233,7 @@ function kr2(id_) {
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = '#fff0f5';
+              el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
            bop();
@@ -248,7 +248,7 @@ function kr3(id_) {
               el.name = 1;
            }
            else {
-              el.style.backgroundColor = '#fff0f5';
+              el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
            bop();

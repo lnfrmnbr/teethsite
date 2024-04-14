@@ -20,7 +20,7 @@ function pupe(id_) {
       else if (pic.name == 3){
         pic.src = "static/periodontalchart/img/t"+id+".PNG";
         pic2.src = "static/periodontalchart/img/t"+id+"2.PNG";
-        but.style.backgroundColor = '#fff0f5';
+        but.style.backgroundColor = '#f0f0f0';
         pic.name = 0;
         pic2.name = 0;
       }

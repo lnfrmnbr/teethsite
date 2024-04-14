@@ -41,7 +41,7 @@ function exist(id_) {
                     document.getElementById("t"+id+"2").name = 0;
                     document.getElementById("t"+id).src = "static/periodontalchart/img/t"+id+".PNG";;
                     document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.PNG";
-                    document.getElementById("pupe"+id).style.backgroundColor = '#fff0f5';
+                    document.getElementById("pupe"+id).style.backgroundColor = '#f0f0f0';
               }
               for (var i = 0; i< ls.length; i++){
                     document.getElementById(ls[i]).hidden = true;

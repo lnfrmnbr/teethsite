@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1000px;
+    top: 1100px;
 }
 
 .div_tables3{
@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1450px;
+    top: 1550px;
 }
 
 .div_tables4{
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1900px;
+    top: 2000px;
 }
 
 .indexes{
@@ -43,9 +43,10 @@ body{
     align-items: center;
     position: relative;
     border: 1px solid;
-    top: 2500px;
+    top: 2600px;
+    padding-top: 30px;
     padding-bottom: 30px;
-    width: 60%;
+    width: 50%;
     height: 70px;
 }
 
@@ -93,6 +94,30 @@ body{
   -ms-user-select: none;
   user-select: none;
   height: 180px;
+}
+
+.teeth_img_kar11{
+  position: absolute;
+  height: 180px;
+  margin-left: -62px;
+}
+
+.teeth_img_kar12{
+  position: absolute;
+  height: 180px;
+  margin-left: -43px;
+}
+
+.teeth_img_kar13{
+  position: absolute;
+  height: 180px;
+  margin-left: -48px;
+}
+
+.teeth_img_kar16{
+  position: absolute;
+  height: 180px;
+  margin-left: -71px;
 }
 
 .td_text{
@@ -146,11 +171,17 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .kr {
    border: none;
-   height: 15px;
+   height: 17px;
    width: 27%;
    margin-left: 3%;
    margin-right: 3%;
    padding: 0px;
+}
+
+.kar {
+   border: none;
+   height: 20px;
+   width: 38%;
 }
 
 .otl {
@@ -378,6 +409,52 @@ input[type="number"]::-webkit-outer-spin-button {
    margin-top: 85px;
    margin-left: 26px;
 }
+
+#fi36{
+   margin-top: 85px;
+   margin-left: 37px;
+}
+
+#fi37{
+   margin-top: 78px;
+   margin-left: 27px;
+}
+
+#fi38{
+   margin-top: 76px;
+   margin-left: 37px;
+}
+
+#fi482{
+   margin-top: 90px;
+   margin-left: 24px;
+}
+
+#fi472{
+   margin-top: 92px;
+   margin-left: 33px;
+}
+
+#fi462{
+   margin-top: 87px;
+   margin-left: 39px;
+}
+
+#fi382{
+   margin-top: 90px;
+   margin-left: 32px;
+}
+
+#fi372{
+   margin-top: 92px;
+   margin-left: 23px;
+}
+
+#fi362{
+   margin-top: 87px;
+   margin-left: 25px;
+}
+
 
 .no{
   -moz-user-select: none;
