@@ -5,23 +5,25 @@
 {% endblock title %}
 
 {% block smth1 %}
-  <h1 style="position: absolute; top: 150px; left: 100px">Пародонтальная карта</h1>
 <head>
-    <label for="start" style="font: 1.3rem 'Fira Sans', sans-serif ;position: absolute; top: 170px; left: 580px">Дата</label>
-    <input type="date" id="start" style="position: absolute; top: 165px; left: 650px" name="trip-start" value="2024-01-01" min="2024-01-01" max="2100-12-31" />
-
-    <label for="lastname" style="font: 1.3rem 'Fira Sans', sans-serif ;position: absolute; top: 235px; left: 100px">Фамилия</label>
-    <input type="text" style="position: absolute; top: 230px; left: 220px" id="lastname" name="lastname" required minlength="2" maxlength="10" size="30"/>
-
-    <label for="name" style="font: 1.3rem 'Fira Sans', sans-serif ;position: absolute; top: 235px; left: 580px">Имя</label>
-    <input type="text" style="position: absolute; top: 230px; left: 650px" id="name" name="name" required minlength="2" maxlength="14" size="15"/>
-
-    <label for="bd" style="font: 1.3rem 'Fira Sans', sans-serif ;position: absolute; top: 235px; left: 890px">Дата рождения</label>
-    <input type="date" id="bd" style="position: absolute; top: 230px; left: 1060px" name="trip-start" value="2024-01-01" min="1900-01-01" max="2100-12-31" />
-
-    <div>
-    <input type="checkbox" id="scales" name="scales" style="height: 30px; width: 30px; position: absolute; top: 295px; left: 100px" />
-    <label for="scales" style="font: 1.3rem 'Fira Sans', sans-serif ;position: absolute; top: 305px; left: 140px">Первичное обследование</label>
+    <div class="top">
+        <h1>Стоматологическая клиническая карта</h1>
+        <label class="top_text" style="top: 20px; left: 780px">Дата</label>
+        <input type="date" style="position: absolute; top: 20px; left: 840px" name="trip-start" value="2024-01-01" min="2024-01-01" max="2100-12-31" />
+        <label for="lastname" class="top_text" style="top: 80px; left: 0px">Фамилия</label>
+        <input type="text" style="position: absolute; top: 80px; left: 100px" id="lastname" name="lastname" required minlength="2" maxlength="20" size="17"/>
+        <label for="name" class="top_text" style="top: 80px; left: 300px">Имя</label>
+        <input type="text" style="position: absolute; top: 80px; left: 355px" id="name" name="name" required minlength="2" maxlength="14" size="15"/>
+        <label for="name" class="top_text" style="top: 80px; left: 540px">Отчество</label>
+        <input type="text" style="position: absolute; top: 80px; left: 640px" id="otch" name="name" required minlength="2" maxlength="14" size="15"/>
+        <label for="bd" class="top_text" style="top: 80px; left: 830px">Дата рождения</label>
+        <input type="date" style="position: absolute; top: 80px; left: 990px" id="bd"  name="trip-start" value="2024-01-01" min="1900-01-01" max="2100-12-31" />
+        <input type="checkbox" id="scales" style="position: absolute; top: 140px; left: 0px; height: 30px; width: 30px;" name="scales" />
+        <label for="scales" class="top_text" style="top: 140px; left: 40px">Первичное обследование</label>
+        <input type="checkbox" id="scales2" style="position: absolute; top: 140px; left: 320px; height: 30px; width: 30px;" name="scales" />
+        <label for="scales" class="top_text" style="top: 140px; left: 360px">Контрольное обследование</label>
+        <label for="name" class="top_text" style="top: 140px; left: 660px">Врач</label>
+        <input type="text" style="position: absolute; top: 140px; left: 730px" id="doctor" name="name" required minlength="2" maxlength="40" size="30"/>
   </div>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Таблица</title>
@@ -414,7 +416,7 @@
        <td class = "td_imgs"><img id="no122" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><img id="t122" class = "teeth_img" name = 0 src="static/periodontalchart/img/t122.PNG"></td>
        <td class = "td_imgs"><img id="no112" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><img id="t112" class = "teeth_img" name = 0 src="static/periodontalchart/img/t112.PNG"></td>
        <th style="border: none; color: white; padding: 20px;"></th>
-          <td class = "td_imgs"><img id="no212" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><div style="position: absolute; bottom: 219px; width: 443px; height: 180px; z-index: 5;"><canvas id="chart4"></canvas></div><img id="t212" class = "teeth_img" name = 0 src="static/periodontalchart/img/t212.PNG"></td>
+          <td class = "td_imgs"><img id="no212" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><div style="position: absolute; bottom: 300px; width: 443px; height: 180px; z-index: 5;"><canvas id="chart4"></canvas></div><img id="t212" class = "teeth_img" name = 0 src="static/periodontalchart/img/t212.PNG"></td>
           <td class = "td_imgs"><img id="no222" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><img id="t222" class = "teeth_img" name = 0 src="static/periodontalchart/img/t222.PNG"></td>
           <td class = "td_imgs"><img id="no232" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><img id="t232" class = "teeth_img" name = 0 src="static/periodontalchart/img/t232.PNG"></td>
           <td class = "td_imgs"><img id="no242" class = "no" hidden="true" src="static/periodontalchart/img/no.PNG"><img id="fi242_1" class = "fi" name=0 src=""><img id="fi242_2" class = "fi" name=0 src=""><img id="t242" class = "teeth_img" name = 0 src="static/periodontalchart/img/t242.PNG"></td>

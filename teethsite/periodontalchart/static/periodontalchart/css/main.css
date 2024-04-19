@@ -3,6 +3,15 @@ body{
     align-items: center;
 }
 
+.top{
+    top: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 200px;
+}
+
 .div_tables1{
     display: flex;
     justify-content: center;
@@ -24,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1550px;
+    top: 1650px;
 }
 
 .div_tables4{
@@ -32,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 2000px;
+    top: 2100px;
 }
 
 .indexes{
@@ -43,7 +52,7 @@ body{
     align-items: center;
     position: relative;
     border: 1px solid;
-    top: 2600px;
+    top: 2500px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 50%;
@@ -126,6 +135,11 @@ body{
   -ms-user-select: none;
   user-select: none;
   padding: 1px;
+}
+
+.top_text{
+  font: 1.3rem 'Fira Sans', sans-serif ;
+  position: absolute;
 }
 
 .desn{
