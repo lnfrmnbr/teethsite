@@ -41,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 2100px;
+    top: 2200px;
 }
 
 .indexes{
@@ -52,7 +52,7 @@ body{
     align-items: center;
     position: relative;
     border: 1px solid;
-    top: 2500px;
+    top: 2700px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 50%;

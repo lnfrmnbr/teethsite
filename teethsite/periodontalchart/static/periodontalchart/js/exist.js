@@ -76,6 +76,58 @@ function exist(id_) {
                     document.getElementById('t'+id+'2').name = 0;
                     document.getElementById('t'+id+'2').src = "static/periodontalchart/img/t"+id+"2.png";
               }
+              if (id[1] == "1" || id[1] == "2" || id[1] == "3"){
+                    document.getElementById('t'+id+"kar6").name = 0;
+                    document.getElementById('t'+id+"kar5").name = 0;
+                    document.getElementById('t'+id+"kar31").name = 0;
+                    document.getElementById('t'+id+"kar32").name = 0;
+                    document.getElementById('t'+id+"kar41").name = 0;
+                    document.getElementById('t'+id+"kar42").name = 0;
+                    document.getElementById('t'+id+"kar6").hidden = true;
+                    document.getElementById('t'+id+"kar5").hidden = true;
+                    document.getElementById('t'+id+"kar31").hidden = true;
+                    document.getElementById('t'+id+"kar32").hidden = true;
+                    document.getElementById('t'+id+"kar41").hidden = true;
+                    document.getElementById('t'+id+"kar42").hidden = true;
+                    document.getElementById("kar"+id+"_6").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_5").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_31").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_32").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_41").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_42").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_6").hidden = true;
+                    document.getElementById("kar"+id+"_5").hidden = true;
+                    document.getElementById("kar"+id+"_31").hidden = true;
+                    document.getElementById("kar"+id+"_32").hidden = true;
+                    document.getElementById("kar"+id+"_41").hidden = true;
+                    document.getElementById("kar"+id+"_42").hidden = true;
+              }
+              if (id[1] == "4" || id[1] == "5" || id[1] == "6" || id[1] == "7" || id[1] == "8"){
+                    document.getElementById('t'+id+"kar1").name = 0;
+                    document.getElementById('t'+id+"kar5").name = 0;
+                    document.getElementById('t'+id+"kar61").name = 0;
+                    document.getElementById('t'+id+"kar62").name = 0;
+                    document.getElementById('t'+id+"kar21").name = 0;
+                    document.getElementById('t'+id+"kar22").name = 0;
+                    document.getElementById('t'+id+"kar1").hidden = true;
+                    document.getElementById('t'+id+"kar5").hidden = true;
+                    document.getElementById('t'+id+"kar61").hidden = true;
+                    document.getElementById('t'+id+"kar62").hidden = true;
+                    document.getElementById('t'+id+"kar21").hidden = true;
+                    document.getElementById('t'+id+"kar22").hidden = true;
+                    document.getElementById("kar"+id+"_1").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_5").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_61").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_62").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_21").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_22").style.backgroundColor = '#f0f0f0';
+                    document.getElementById("kar"+id+"_1").hidden = true;
+                    document.getElementById("kar"+id+"_5").hidden = true;
+                    document.getElementById("kar"+id+"_61").hidden = true;
+                    document.getElementById("kar"+id+"_62").hidden = true;
+                    document.getElementById("kar"+id+"_21").hidden = true;
+                    document.getElementById("kar"+id+"_22").hidden = true;
+              }
            }
            else {
               el.name = 0;
@@ -106,6 +158,22 @@ function exist(id_) {
                     document.getElementById("fi"+id+"2_1").hidden = false;
                     document.getElementById("furk"+id+"2_2").hidden = false;
                     document.getElementById("fi"+id+"2_2").hidden = false;
+              }
+              if (id[1] == "1" || id[1] == "2" || id[1] == "3"){
+                    document.getElementById("kar"+id+"_6").hidden = false;
+                    document.getElementById("kar"+id+"_5").hidden = false;
+                    document.getElementById("kar"+id+"_31").hidden = false;
+                    document.getElementById("kar"+id+"_32").hidden = false;
+                    document.getElementById("kar"+id+"_41").hidden = false;
+                    document.getElementById("kar"+id+"_42").hidden = false;
+              }
+              if (id[1] == "4" || id[1] == "5" || id[1] == "6" || id[1] == "7" || id[1] == "8"){
+                    document.getElementById("kar"+id+"_1").hidden = false;
+                    document.getElementById("kar"+id+"_5").hidden = false;
+                    document.getElementById("kar"+id+"_61").hidden = false;
+                    document.getElementById("kar"+id+"_62").hidden = false;
+                    document.getElementById("kar"+id+"_21").hidden = false;
+                    document.getElementById("kar"+id+"_22").hidden = false;
               }
            }
            pi();
