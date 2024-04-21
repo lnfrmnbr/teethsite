@@ -39,8 +39,8 @@ function exist(id_) {
               if (document.getElementById("t"+id).name != 0){
                     document.getElementById("t"+id).name = 0;
                     document.getElementById("t"+id+"2").name = 0;
-                    document.getElementById("t"+id).src = "static/periodontalchart/img/t"+id+".PNG";;
-                    document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.PNG";
+                    document.getElementById("t"+id).src = "static/periodontalchart/img/t"+id+".png";;
+                    document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.png";
                     document.getElementById("pupe"+id).style.backgroundColor = '#f0f0f0';
               }
               for (var i = 0; i< ls.length; i++){
@@ -72,9 +72,9 @@ function exist(id_) {
               if (document.getElementById('t'+id).name == 1){
                     document.getElementById('impl_kvadr'+id).hidden = true;
                     document.getElementById('t'+id).name = 0;
-                    document.getElementById('t'+id).src = "static/periodontalchart/img/t"+id+".PNG";
+                    document.getElementById('t'+id).src = "static/periodontalchart/img/t"+id+".png";
                     document.getElementById('t'+id+'2').name = 0;
-                    document.getElementById('t'+id+'2').src = "static/periodontalchart/img/t"+id+"2.PNG";
+                    document.getElementById('t'+id+'2').src = "static/periodontalchart/img/t"+id+"2.png";
               }
            }
            else {

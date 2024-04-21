@@ -2,8 +2,8 @@ function implant(id_) {
            var id = String(id_);
            var el = document.getElementById("t"+id);
            if (el.name != 1){
-              el.src = "static/periodontalchart/img/t"+id+"i.PNG";
-              document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2i.PNG";
+              el.src = "static/periodontalchart/img/t"+id+"i.png";
+              document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2i.png";
               document.getElementById('impl_kvadr'+id).hidden = false;
               document.getElementById('pupe'+id).style.backgroundColor = '#f0f0f0';
               document.getElementById('pupe'+id).hidden = true;
@@ -28,8 +28,8 @@ function implant(id_) {
               }
            }
            else {
-              el.src = "static/periodontalchart/img/t"+id+".PNG";
-              document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.PNG";
+              el.src = "static/periodontalchart/img/t"+id+".png";
+              document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.png";
               document.getElementById('impl_kvadr'+id).hidden = true;
               document.getElementById('pupe'+id).hidden = false;
               el.name = 0;

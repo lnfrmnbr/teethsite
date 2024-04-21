@@ -4,18 +4,18 @@ function furk(id_) {
            var pic = document.getElementById("fi"+id);
            if (butt.name == 0){
               butt.name = 1;
-              butt.src = "static/periodontalchart/img/f1.PNG";
-              pic.src = "static/periodontalchart/img/f1.PNG";
+              butt.src = "static/periodontalchart/img/f1.png";
+              pic.src = "static/periodontalchart/img/f1.png";
            }
            else if (butt.name == 1) {
               butt.name = 2;
-              butt.src = "static/periodontalchart/img/f2.PNG";
-              pic.src = "static/periodontalchart/img/f2.PNG";
+              butt.src = "static/periodontalchart/img/f2.png";
+              pic.src = "static/periodontalchart/img/f2.png";
            }
            else if (butt.name == 2){
               butt.name = 3;
-              butt.src = "static/periodontalchart/img/f3.PNG";
-              pic.src = "static/periodontalchart/img/f3.PNG";
+              butt.src = "static/periodontalchart/img/f3.png";
+              pic.src = "static/periodontalchart/img/f3.png";
            }
            else if (butt.name == 3){
               butt.name = 0;
@@ -30,18 +30,18 @@ function furk1(id_) {
            var pic = document.getElementById("fi"+id+"_1");
            if (butt.name == 0){
               butt.name = 1;
-              butt.src = "static/periodontalchart/img/f1.PNG";
-              pic.src = "static/periodontalchart/img/f1.PNG";
+              butt.src = "static/periodontalchart/img/f1.png";
+              pic.src = "static/periodontalchart/img/f1.png";
            }
            else if (butt.name == 1) {
               butt.name = 2;
-              butt.src = "static/periodontalchart/img/f2.PNG";
-              pic.src = "static/periodontalchart/img/f2.PNG";
+              butt.src = "static/periodontalchart/img/f2.png";
+              pic.src = "static/periodontalchart/img/f2.png";
            }
            else if (butt.name == 2){
               butt.name = 3;
-              butt.src = "static/periodontalchart/img/f3.PNG";
-              pic.src = "static/periodontalchart/img/f3.PNG";
+              butt.src = "static/periodontalchart/img/f3.png";
+              pic.src = "static/periodontalchart/img/f3.png";
            }
            else if (butt.name == 3){
               butt.name = 0;
@@ -56,18 +56,18 @@ function furk2(id_) {
            var pic = document.getElementById("fi"+id+"_2");
            if (butt.name == 0){
               butt.name = 1;
-              butt.src = "static/periodontalchart/img/f1.PNG";
-              pic.src = "static/periodontalchart/img/f1.PNG";
+              butt.src = "static/periodontalchart/img/f1.png";
+              pic.src = "static/periodontalchart/img/f1.png";
            }
            else if (butt.name == 1) {
               butt.name = 2;
-              butt.src = "static/periodontalchart/img/f2.PNG";
-              pic.src = "static/periodontalchart/img/f2.PNG";
+              butt.src = "static/periodontalchart/img/f2.png";
+              pic.src = "static/periodontalchart/img/f2.png";
            }
            else if (butt.name == 2){
               butt.name = 3;
-              butt.src = "static/periodontalchart/img/f3.PNG";
-              pic.src = "static/periodontalchart/img/f3.PNG";
+              butt.src = "static/periodontalchart/img/f3.png";
+              pic.src = "static/periodontalchart/img/f3.png";
            }
            else if (butt.name == 3){
               butt.name = 0;
