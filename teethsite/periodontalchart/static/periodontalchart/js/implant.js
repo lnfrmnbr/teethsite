@@ -7,6 +7,7 @@ function implant(id_) {
               document.getElementById('impl_kvadr'+id).hidden = false;
               document.getElementById('pupe'+id).style.backgroundColor = '#f0f0f0';
               document.getElementById('pupe'+id).hidden = true;
+              document.getElementById('plomb'+id).hidden = true;
               el.name = 1;
               if (id_ == 18 || id_ == 17 || id_ == 16 || id_ == 28 || id_ == 27 || id_ == 26){
                     document.getElementById('furk'+id).hidden = true;
@@ -84,6 +85,7 @@ function implant(id_) {
               document.getElementById("t"+id+"2").src = "static/periodontalchart/img/t"+id+"2.png";
               document.getElementById('impl_kvadr'+id).hidden = true;
               document.getElementById('pupe'+id).hidden = false;
+              document.getElementById('plomb'+id).hidden = false;
               el.name = 0;
               if (id_ == 18 || id_ == 17 || id_ == 16 || id_ == 28 || id_ == 27 || id_ == 26){
                     document.getElementById('furk'+id).hidden = false;
