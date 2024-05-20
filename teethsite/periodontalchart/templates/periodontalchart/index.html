@@ -6,7 +6,16 @@
 
 {% block smth1 %}
 <head>
-    <div class="top">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Таблица</title>
+    <title>Charts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/periodontalchart/css/main.css"/>
+ </head>
+ <body id="bodyy">
+ <div class="top">
         <h1 style="position: absolute; top: 0px; left: 0px;">Стоматологическая клиническая карта</h1>
         <label class="top_text" style="top: 20px; left: 780px">Дата</label>
         <input type="date" style="position: absolute; top: 20px; left: 840px" name="trip-start" value="2024-01-01" min="2024-01-01" max="2100-12-31" />
@@ -25,15 +34,6 @@
         <label for="name" class="top_text" style="top: 140px; left: 660px">Врач</label>
         <input type="text" style="position: absolute; top: 140px; left: 730px" id="doctor" name="name" required minlength="2" maxlength="40" size="30"/>
   </div>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Таблица</title>
-    <title>Charts</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="static/periodontalchart/css/main.css"/>
- </head>
- <body>
  <div class="div_tables1">
   <table bgcolor=#ffffff align="center" id="table1">
    <tr align="center">
@@ -1497,6 +1497,7 @@
  </div>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="static/periodontalchart/js/chart1.js"></script>
@@ -1518,5 +1519,26 @@
  <script src="static/periodontalchart/js/exist.js"></script>
  <script src="static/periodontalchart/js/indexes.js"></script>
  <script src="static/periodontalchart/js/plomb.js"></script>
+ <script>
+    function download(){
+        const element = document.getElementById('bodyy');
+        html2canvas(element).then(function (canvas) {
+          const imgData = canvas.toDataURL();
+          //const img = document.createElement('img');
+          //img.src = imgData;
+          //document.body.appendChild(img);
+          const downloadLink = document.createElement('a');
+          downloadLink.setAttribute('href', imgData);
+          downloadLink.setAttribute('download', 'klinic_card');
+
+          // Добавляем ссылку на страницу и эмулируем клик по ней
+          document.body.appendChild(downloadLink);
+          downloadLink.click();
+
+          // Удаляем ссылку из DOM
+          document.body.removeChild(downloadLink);
+        });
+    }
+ </script>
  </body>
 {% endblock smth1 %}
