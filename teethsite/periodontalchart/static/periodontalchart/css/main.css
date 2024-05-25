@@ -533,6 +533,20 @@ input[type="number"]::-webkit-outer-spin-button {
     color: #1D8874;
 }
 
+#download{
+    position: absolute;
+    top: 20px; left: 1100px;
+    border-radius: 4px;
+    background-color: #24C5A4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+#download:hover{
+    color: #1D8874;
+}
+
 td, th {
     border: 1px solid black; /* Параметры рамки */
 }
