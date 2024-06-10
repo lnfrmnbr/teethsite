@@ -103,6 +103,18 @@ body{
   margin-left: -72px;
 }
 
+.teeth_img_kar21{
+  position: absolute;
+  height: 180px;
+  margin-left: -62px;
+}
+
+.teeth_img_kar22{
+  position: absolute;
+  height: 180px;
+  margin-left: -43px;
+}
+
 .teeth_img_kar11{
   position: absolute;
   height: 180px;
@@ -115,6 +127,12 @@ body{
   margin-left: -43px;
 }
 
+.teeth_img_kar122{
+  position: absolute;
+  height: 180px;
+  margin-left: -51px;
+}
+
 .teeth_img_kar13{
   position: absolute;
   height: 180px;
@@ -125,6 +143,37 @@ body{
   position: absolute;
   height: 180px;
   margin-left: -59px;
+}
+
+.teeth_img_kar182{
+  position: absolute;
+  height: 180px;
+  margin-left: -56px;
+}
+
+.teeth_img_kar172{
+  position: absolute;
+  height: 180px;
+  margin-left: -65px;
+}
+
+.teeth_img_kar162{
+  position: absolute;
+  height: 180px;
+  margin-left: -72px;
+}
+
+.teeth_img_kar152{
+  position: absolute;
+  height: 180px;
+  margin-left: -46px;
+  margin-top: 2px;
+}
+
+.teeth_img_kar142{
+  position: absolute;
+  height: 180px;
+  margin-left: -48px;
 }
 
 .teeth_img_kar17{
