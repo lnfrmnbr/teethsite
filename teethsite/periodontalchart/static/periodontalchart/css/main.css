@@ -17,7 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 400px;
+    top: 300px;
 }
 
 .div_tables2{
@@ -25,7 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1100px;
+    top: 1000px;
 }
 
 .div_tables3{
@@ -33,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1650px;
+    top: 1550px;
 }
 
 .div_tables4{
@@ -41,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 2200px;
+    top: 2065px;
 }
 
 .indexes{
@@ -194,6 +194,48 @@ body{
 }
 
 .teeth_img_kar41{
+  position: absolute;
+  height: 180px;
+  margin-left: -40px;
+}
+
+.teeth_img_kar482{
+  position: absolute;
+  height: 180px;
+  margin-left: -70px;
+}
+
+.teeth_img_kar472{
+  position: absolute;
+  height: 180px;
+  margin-left: -72px;
+}
+
+.teeth_img_kar462{
+  position: absolute;
+  height: 180px;
+  margin-left: -79px;
+}
+
+.teeth_img_kar452{
+  position: absolute;
+  height: 180px;
+  margin-left: -53px;
+}
+
+.teeth_img_kar442{
+  position: absolute;
+  height: 180px;
+  margin-left: -46px;
+}
+
+.teeth_img_kar422{
+  position: absolute;
+  height: 180px;
+  margin-left: -42px;
+}
+
+.teeth_img_kar412{
   position: absolute;
   height: 180px;
   margin-left: -40px;

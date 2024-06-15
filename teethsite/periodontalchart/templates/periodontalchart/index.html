@@ -1,7 +1,7 @@
 {% extends 'periodontalchart/common.html' %}
 
 {% block title %}
-  Пародонтальная карта
+  Стоматологическая клиническая карта
 {% endblock title %}
 
 {% block smth1 %}
@@ -1256,19 +1256,104 @@
     <td style="border: 0; font-weight: bold;">Вестибулярно</td>
        <td class = "td_imgs"><img id="no482" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><div style="position: absolute; bottom: 485px; width: 450px; height: 180px; z-index: 5;"><canvas id="chart7"></canvas></div><img id="fi482" class = "fi" name=0 src="">
            <img id="t482" class = "teeth_img" style="margin-left: 1px;" name = 0 src="static/periodontalchart/img/t482.png">
-
+           <img id="t482kar1"  class = "teeth_img_kar482" name = 0 hidden="true" src="static/periodontalchart/img/kar/t482k1.png">
+           <img id="t482kar5"  class = "teeth_img_kar482" name = 0 hidden="true" src="static/periodontalchart/img/kar/t482k5.png">
+           <img id="t482kar21" class = "teeth_img_kar482" name = 0 hidden="true" src="static/periodontalchart/img/kar/t482k21.png">
+           <img id="t482kar22" class = "teeth_img_kar482" name = 0 hidden="true" src="static/periodontalchart/img/kar/t482k22.png">
+           <img id="t482kar61" class = "teeth_img_kar482" name = 0 hidden="true" src="static/periodontalchart/img/kar/t482k61.png">
+           <img id="t482kar62" class = "teeth_img_kar482" name = 0 hidden="true" src="static/periodontalchart/img/kar/t482k62.png">
        </td>
-       <td class = "td_imgs"><img id="no472" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="fi472" class = "fi" name=0 src=""><img id="t472" class = "teeth_img" name = 0 src="static/periodontalchart/img/t472.png"></td>
-       <td class = "td_imgs"><img id="no462" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="fi462" class = "fi" name=0 src=""><img id="t462" class = "teeth_img" name = 0 src="static/periodontalchart/img/t462.png"></td>
-       <td class = "td_imgs"><img id="no452" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t452" class = "teeth_img" name = 0 src="static/periodontalchart/img/t452.png"></td>
-       <td class = "td_imgs"><img id="no442" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t442" class = "teeth_img" name = 0 src="static/periodontalchart/img/t442.png"></td>
-       <td class = "td_imgs"><img id="no432" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t432" class = "teeth_img" name = 0 src="static/periodontalchart/img/t432.png"></td>
-       <td class = "td_imgs"><img id="no422" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t422" class = "teeth_img" name = 0 src="static/periodontalchart/img/t422.png"></td>
-       <td class = "td_imgs"><img id="no412" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t412" class = "teeth_img" name = 0 src="static/periodontalchart/img/t412.png"></td>
+       <td class = "td_imgs"><img id="no472" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="fi472" class = "fi" name=0 src="">
+           <img id="t472" class = "teeth_img" name = 0 src="static/periodontalchart/img/t472.png">
+           <img id="t472kar1"  class = "teeth_img_kar472" name = 0 hidden="true" src="static/periodontalchart/img/kar/t472k1.png">
+           <img id="t472kar5"  class = "teeth_img_kar472" name = 0 hidden="true" src="static/periodontalchart/img/kar/t472k5.png">
+           <img id="t472kar21" class = "teeth_img_kar472" name = 0 hidden="true" src="static/periodontalchart/img/kar/t472k21.png">
+           <img id="t472kar22" class = "teeth_img_kar472" name = 0 hidden="true" src="static/periodontalchart/img/kar/t472k22.png">
+           <img id="t472kar61" class = "teeth_img_kar472" name = 0 hidden="true" src="static/periodontalchart/img/kar/t472k61.png">
+           <img id="t472kar62" class = "teeth_img_kar472" name = 0 hidden="true" src="static/periodontalchart/img/kar/t472k62.png">
+       </td>
+       <td class = "td_imgs"><img id="no462" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="fi462" class = "fi" name=0 src="">
+           <img id="t462" class = "teeth_img" name = 0 src="static/periodontalchart/img/t462.png">
+           <img id="t462kar1"  class = "teeth_img_kar462" name = 0 hidden="true" src="static/periodontalchart/img/kar/t462k1.png">
+           <img id="t462kar5"  class = "teeth_img_kar462" name = 0 hidden="true" src="static/periodontalchart/img/kar/t462k5.png">
+           <img id="t462kar21" class = "teeth_img_kar462" name = 0 hidden="true" src="static/periodontalchart/img/kar/t462k21.png">
+           <img id="t462kar22" class = "teeth_img_kar462" name = 0 hidden="true" src="static/periodontalchart/img/kar/t462k22.png">
+           <img id="t462kar61" class = "teeth_img_kar462" name = 0 hidden="true" src="static/periodontalchart/img/kar/t462k61.png">
+           <img id="t462kar62" class = "teeth_img_kar462" name = 0 hidden="true" src="static/periodontalchart/img/kar/t462k62.png">
+       </td>
+       <td class = "td_imgs"><img id="no452" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+           <img id="t452" class = "teeth_img" name = 0 src="static/periodontalchart/img/t452.png">
+           <img id="t452kar1"  class = "teeth_img_kar452" name = 0 hidden="true" src="static/periodontalchart/img/kar/t452k1.png">
+           <img id="t452kar5"  class = "teeth_img_kar452" name = 0 hidden="true" src="static/periodontalchart/img/kar/t452k5.png">
+           <img id="t452kar21" class = "teeth_img_kar452" name = 0 hidden="true" src="static/periodontalchart/img/kar/t452k21.png">
+           <img id="t452kar22" class = "teeth_img_kar452" name = 0 hidden="true" src="static/periodontalchart/img/kar/t452k22.png">
+           <img id="t452kar61" class = "teeth_img_kar452" name = 0 hidden="true" src="static/periodontalchart/img/kar/t452k61.png">
+           <img id="t452kar62" class = "teeth_img_kar452" name = 0 hidden="true" src="static/periodontalchart/img/kar/t452k62.png">
+       </td>
+       <td class = "td_imgs"><img id="no442" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+           <img id="t442" class = "teeth_img" name = 0 src="static/periodontalchart/img/t442.png">
+           <img id="t442kar1"  class = "teeth_img_kar442" name = 0 hidden="true" src="static/periodontalchart/img/kar/t442k1.png">
+           <img id="t442kar5"  class = "teeth_img_kar442" name = 0 hidden="true" src="static/periodontalchart/img/kar/t442k5.png">
+           <img id="t442kar21" class = "teeth_img_kar442" name = 0 hidden="true" src="static/periodontalchart/img/kar/t442k21.png">
+           <img id="t442kar22" class = "teeth_img_kar442" name = 0 hidden="true" src="static/periodontalchart/img/kar/t442k22.png">
+           <img id="t442kar61" class = "teeth_img_kar442" name = 0 hidden="true" src="static/periodontalchart/img/kar/t442k61.png">
+           <img id="t442kar62" class = "teeth_img_kar442" name = 0 hidden="true" src="static/periodontalchart/img/kar/t442k62.png">
+       </td>
+       <td class = "td_imgs"><img id="no432" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+           <img id="t432" class = "teeth_img" name = 0 src="static/periodontalchart/img/t432.png">
+           <img id="t432kar6"  class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t432k6.png">
+           <img id="t432kar5"  class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t432k5.png">
+           <img id="t432kar31" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t432k31.png">
+           <img id="t432kar32" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t432k32.png">
+           <img id="t432kar41" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t432k41.png">
+           <img id="t432kar42" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t432k42.png">
+       </td>
+       <td class = "td_imgs"><img id="no422" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+           <img id="t422" class = "teeth_img" name = 0 src="static/periodontalchart/img/t422.png">
+           <img id="t422kar6"  class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t422k6.png">
+           <img id="t422kar5"  class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t422k5.png">
+           <img id="t422kar31" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t422k31.png">
+           <img id="t422kar32" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t422k32.png">
+           <img id="t422kar41" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t422k41.png">
+           <img id="t422kar42" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t422k42.png">
+       </td>
+       <td class = "td_imgs"><img id="no412" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+           <img id="t412" class = "teeth_img" name = 0 src="static/periodontalchart/img/t412.png">
+           <img id="t412kar6"  class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t412k6.png">
+           <img id="t412kar5"  class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t412k5.png">
+           <img id="t412kar31" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t412k31.png">
+           <img id="t412kar32" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t412k32.png">
+           <img id="t412kar41" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t412k41.png">
+           <img id="t412kar42" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t412k42.png">
+       </td>
        <th style="border: none; color: white; padding: 20px;"></th>
-          <td class = "td_imgs"><img id="no312" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><div style="position: absolute; bottom: 485px; width: 450px; height: 180px; z-index: 5;"><canvas id="chart8"></canvas></div><img id="t312" class = "teeth_img" name = 0 src="static/periodontalchart/img/t312.png"></td>
-          <td class = "td_imgs"><img id="no322" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t322" class = "teeth_img" name = 0 src="static/periodontalchart/img/t322.png"></td>
-          <td class = "td_imgs"><img id="no332" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t332" class = "teeth_img" name = 0 src="static/periodontalchart/img/t332.png"></td>
+          <td class = "td_imgs"><img id="no312" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><div style="position: absolute; bottom: 485px; width: 450px; height: 180px; z-index: 5;"><canvas id="chart8"></canvas></div>
+              <img id="t312" class = "teeth_img" name = 0 src="static/periodontalchart/img/t312.png">
+              <img id="t312kar6"  class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t312k6.png">
+              <img id="t312kar5"  class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t312k5.png">
+              <img id="t312kar31" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t312k31.png">
+              <img id="t312kar32" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t312k32.png">
+              <img id="t312kar41" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t312k41.png">
+              <img id="t312kar42" class = "teeth_img_kar412" name = 0 hidden="true" src="static/periodontalchart/img/kar/t312k42.png">
+          </td>
+          <td class = "td_imgs"><img id="no322" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+              <img id="t322" class = "teeth_img" name = 0 src="static/periodontalchart/img/t322.png">
+              <img id="t322kar6"  class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t322k6.png">
+              <img id="t322kar5"  class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t322k5.png">
+              <img id="t322kar31" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t322k31.png">
+              <img id="t322kar32" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t322k32.png">
+              <img id="t322kar41" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t322k41.png">
+              <img id="t322kar42" class = "teeth_img_kar422" name = 0 hidden="true" src="static/periodontalchart/img/kar/t322k42.png">
+          </td>
+          <td class = "td_imgs"><img id="no332" class = "no" hidden="true" src="static/periodontalchart/img/no.png">
+              <img id="t332" class = "teeth_img" name = 0 src="static/periodontalchart/img/t332.png">
+              <img id="t332kar6"  class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t332k6.png">
+              <img id="t332kar5"  class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t332k5.png">
+              <img id="t332kar31" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t332k31.png">
+              <img id="t332kar32" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t332k32.png">
+              <img id="t332kar41" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t332k41.png">
+              <img id="t332kar42" class = "teeth_img_kar43" name = 0 hidden="true" src="static/periodontalchart/img/kar/t332k42.png">
+          </td>
           <td class = "td_imgs"><img id="no342" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t342" class = "teeth_img" name = 0 src="static/periodontalchart/img/t342.png"></td>
           <td class = "td_imgs"><img id="no352" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="t352" class = "teeth_img" name = 0 src="static/periodontalchart/img/t352.png"></td>
           <td class = "td_imgs"><img id="no362" class = "no" hidden="true" src="static/periodontalchart/img/no.png"><img id="fi362" class = "fi" name=0 src=""><img id="t362" class = "teeth_img" name = 0 src="static/periodontalchart/img/t362.png"></td>
@@ -1400,7 +1485,7 @@
         <td class="td_text">Кариес</td>
        <td><button class="kar" id="kar482_1" onclick="kar(482,1)">1</button>
            <button class="kar" id="kar482_5" onclick="kar(482,5)">5</button>
-           <button class="kar" id="kar482_21" onclick="kar(482,1)">2</button>
+           <button class="kar" id="kar482_21" onclick="kar(482,21)">2</button>
            <button class="kar" id="kar482_22" onclick="kar(482,22)">2</button>
            <button class="kar" id="kar482_61" onclick="kar(482,61)">6</button>
            <button class="kar" id="kar482_62" onclick="kar(482,62)">6</button></td>
