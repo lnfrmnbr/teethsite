@@ -398,50 +398,35 @@ function cpitn(){
 function kpu(){
     var kpu = 0;
     for (var i = 1; i< 9; i++){
-        for (var j = 1; j < 4; j++){
+        for (var j = 1; j <= 4; j++){
             var n = "t"+String(j)+String(i)+"kar";
             var n2 = "t"+String(j)+String(i)+"2kar";
+            var id = String(j)+String(i);
+            if (document.getElementById("plomb"+id).name == 1){
+                kpu+=1;
+            }
+            if (document.getElementById("exist"+id).name == 1){
+                kpu+=1;
+            }
             if (i >= 4){
-                  if (document.getElementById(n+"1").name == 1 || document.getElementById(n2+"1").name == 1){
+                  if (document.getElementById(n+"1").name == 1 || document.getElementById(n2+"1").name == 1 ||
+                  document.getElementById(n+"5").name == 1 || document.getElementById(n2+"5").name == 1 ||
+                  document.getElementById(n+"21").name == 1 || document.getElementById(n2+"21").name == 1 ||
+                  document.getElementById(n+"22").name == 1 || document.getElementById(n2+"22").name == 1 ||
+                  document.getElementById(n+"61").name == 1 || document.getElementById(n2+"61").name == 1 ||
+                  document.getElementById(n+"62").name == 1 || document.getElementById(n2+"62").name == 1){
                         kpu+=1;
                   }
-                  if (document.getElementById(n+"5").name == 1 || document.getElementById(n2+"5").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"21").name == 1 || document.getElementById(n2+"21").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"22").name == 1 || document.getElementById(n2+"22").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"61").name == 1 || document.getElementById(n2+"61").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"62").name == 1 || document.getElementById(n2+"62").name == 1){
-                        kpu+=1;
-                  }
-
             }
             else{
-                  if (document.getElementById(n+"6").name == 1 || document.getElementById(n2+"6").name == 1){
+                  if (document.getElementById(n+"6").name == 1 || document.getElementById(n2+"6").name == 1 ||
+                  document.getElementById(n+"5").name == 1 || document.getElementById(n2+"5").name == 1 ||
+                  document.getElementById(n+"31").name == 1 || document.getElementById(n2+"31").name == 1 ||
+                  document.getElementById(n+"32").name == 1 || document.getElementById(n2+"32").name == 1 ||
+                  document.getElementById(n+"41").name == 1 || document.getElementById(n2+"41").name == 1 ||
+                  document.getElementById(n+"42").name == 1 || document.getElementById(n2+"42").name == 1){
                         kpu+=1;
                   }
-                  if (document.getElementById(n+"5").name == 1 || document.getElementById(n2+"5").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"31").name == 1 || document.getElementById(n2+"31").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"32").name == 1 || document.getElementById(n2+"32").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"41").name == 1 || document.getElementById(n2+"41").name == 1){
-                        kpu+=1;
-                  }
-                  if (document.getElementById(n+"42").name == 1 || document.getElementById(n2+"42").name == 1){
-                        kpu+=1;
-                  }
-
             }
         }
     }
@@ -453,3 +438,4 @@ pi();
 bop();
 api();
 cpitn();
+kpu();

@@ -176,6 +176,8 @@ function exist(id_) {
                     document.getElementById("kar"+id+"2_21").hidden = true;
                     document.getElementById("kar"+id+"2_22").hidden = true;
               }
+              document.getElementById("plomb"+id).name = 0;
+              document.getElementById("plomb"+id).style.backgroundColor = '#f0f0f0';
            }
            else {
               el.name = 0;
@@ -240,4 +242,5 @@ function exist(id_) {
            bop();
            api();
            cpitn();
+           kpu();
 }

@@ -9,4 +9,5 @@ function plomb(id_) {
               el.style.backgroundColor = '#f0f0f0';
               el.name = 0;
            }
+           kpu();
 }

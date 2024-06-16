@@ -57,4 +57,5 @@ function kar(id_,par_) {
             }
         }
     }
+    kpu();
 }
