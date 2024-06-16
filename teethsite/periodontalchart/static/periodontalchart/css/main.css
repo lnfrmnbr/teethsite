@@ -52,11 +52,27 @@ body{
     align-items: center;
     position: relative;
     border: 1px solid;
-    top: 2700px;
+    top: 2600px;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 80%;
+    width: 60%;
     height: 70px;
+}
+
+#pi{
+    padding-right: 30px;
+}
+
+#kpu{
+    padding-right: 30px;
+}
+
+#bop{
+    padding-right: 30px;
+}
+
+#api{
+    padding-right: 30px;
 }
 
 .teeth_img {
