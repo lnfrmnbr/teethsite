@@ -59,6 +59,20 @@ body{
     height: 70px;
 }
 
+.comment{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60%;
+    height: 70px;
+}
+
 #pi{
     padding-right: 30px;
 }

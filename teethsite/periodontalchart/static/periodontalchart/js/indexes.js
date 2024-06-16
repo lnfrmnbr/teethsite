@@ -399,14 +399,17 @@ function kpu(){
     var kpu = 0;
     for (var i = 1; i< 9; i++){
         for (var j = 1; j <= 4; j++){
+            var k = 0;
+            var p = 0;
+            var u = 0;
             var n = "t"+String(j)+String(i)+"kar";
             var n2 = "t"+String(j)+String(i)+"2kar";
             var id = String(j)+String(i);
             if (document.getElementById("plomb"+id).name == 1){
-                kpu+=1;
+                p+=1;
             }
             if (document.getElementById("exist"+id).name == 1){
-                kpu+=1;
+                u+=1;
             }
             if (i >= 4){
                   if (document.getElementById(n+"1").name == 1 || document.getElementById(n2+"1").name == 1 ||
@@ -415,7 +418,7 @@ function kpu(){
                   document.getElementById(n+"22").name == 1 || document.getElementById(n2+"22").name == 1 ||
                   document.getElementById(n+"61").name == 1 || document.getElementById(n2+"61").name == 1 ||
                   document.getElementById(n+"62").name == 1 || document.getElementById(n2+"62").name == 1){
-                        kpu+=1;
+                        k+=1;
                   }
             }
             else{
@@ -425,8 +428,11 @@ function kpu(){
                   document.getElementById(n+"32").name == 1 || document.getElementById(n2+"32").name == 1 ||
                   document.getElementById(n+"41").name == 1 || document.getElementById(n2+"41").name == 1 ||
                   document.getElementById(n+"42").name == 1 || document.getElementById(n2+"42").name == 1){
-                        kpu+=1;
+                        k+=1;
                   }
+            }
+            if (k == 1 || u == 1 || p == 1){
+                kpu +=1;
             }
         }
     }
