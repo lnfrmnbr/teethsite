@@ -187,6 +187,42 @@ body{
   margin-left: -46px;
 }
 
+.teeth_img_kar342{
+  position: absolute;
+  height: 180px;
+  margin-left: -47px;
+}
+
+.teeth_img_kar352{
+  position: absolute;
+  height: 180px;
+  margin-left: -52px;
+}
+
+.teeth_img_kar362{
+  position: absolute;
+  height: 180px;
+  margin-left: -79px;
+}
+
+.teeth_img_kar372{
+  position: absolute;
+  height: 180px;
+  margin-left: -73px;
+}
+
+.teeth_img_kar382{
+  position: absolute;
+  height: 180px;
+  margin-left: -70px;
+}
+
+.teeth_img_kar132{
+  position: absolute;
+  height: 180px;
+  margin-left: -48px;
+}
+
 .teeth_img_kar42{
   position: absolute;
   height: 180px;
@@ -263,6 +299,13 @@ body{
   position: absolute;
   height: 180px;
   margin-left: -46px;
+  margin-top: 2px;
+}
+
+.teeth_img_kar252{
+  position: absolute;
+  height: 180px;
+  margin-left: -48px;
   margin-top: 2px;
 }
 
